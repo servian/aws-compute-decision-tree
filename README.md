@@ -32,4 +32,4 @@ The flowcharts are created using the VS Code extension [Draw.io Integration](htt
 
 ## Contributing
 
-Think I've made a mistake or have a suggestion? Please let me know by raising an issue.
+Think I've made a mistake or have a suggestion? Please let me know by raising an issue, or better yet, a pull request!
