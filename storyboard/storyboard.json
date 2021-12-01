@@ -207,7 +207,7 @@
           "label": "No"
         }
       ],
-      "name": "Do you prefer to use a fully managed streaming service?",
+      "name": "Do you prefer a fully managed streaming service?",
       "color": "#00bfff"
     },
     {
@@ -271,7 +271,7 @@
           "label": "No"
         }
       ],
-      "name": "Do you prefer to use a fully managed Spark service?",
+      "name": "Do you prefer a fully managed Spark service?",
       "color": "#00bfff"
     },
     {
@@ -613,7 +613,7 @@
           "label": "No"
         }
       ],
-      "name": "Do you prefer to use a fully managed Spark service?",
+      "name": "Do you prefer a fully managed Spark service?",
       "color": "#00bfff"
     },
     {
@@ -1403,7 +1403,7 @@
           "label": "No"
         }
       ],
-      "name": "Do you prefer to use a fully managed Spark service?",
+      "name": "Do you prefer a fully managed Spark service?",
       "color": "#00bfff"
     },
     {
@@ -1681,7 +1681,7 @@
           "label": "No"
         }
       ],
-      "name": "Do you prefer to use a fully managed ETL service?",
+      "name": "Do you prefer a fully managed ETL service?",
       "color": "#00bfff"
     },
     {
@@ -1831,7 +1831,7 @@
           "label": "No"
         }
       ],
-      "name": "Do you prefer to use a fully managed machine learning service?",
+      "name": "Do you prefer a fully managed machine learning service?",
       "color": "#00bfff"
     },
     {
@@ -1895,7 +1895,7 @@
           "label": "No"
         }
       ],
-      "name": "Do you prefer to use a fully managed Spark service?",
+      "name": "Do you prefer a fully managed Spark service?",
       "color": "#00bfff"
     },
     {

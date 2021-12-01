@@ -18,11 +18,11 @@ The flowcharts are created using the VS Code extension [Draw.io Integration](htt
 
 ## Changelog
 
-- 2.1.0:
+- 2.1.0 - 1 Dec 2021:
 
   - Split flowchart into individual flowcharts based on application (e.g. analytical, application, machine learning).
 
-- 2.0.0:
+- 2.0.0 - 1 Dec 2021:
 
   - Added support for batch-oriented workloads that require inter-task orchestration serviced by [Amazon Managed Workflows for Apache Airflow](https://aws.amazon.com/managed-workflows-for-apache-airflow/).
   - Added support for edge computing machine learning workloads serviced by [AWS Panorama](https://aws.amazon.com/panorama/) for computer vision and [AWS IoT Greengrass](https://aws.amazon.com/greengrass/) for all other machine learning workloads.
