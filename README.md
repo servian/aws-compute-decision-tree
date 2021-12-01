@@ -2,7 +2,7 @@
 
 With over 170 services to chose from, finding the right AWS compute service can be a challenge. This decision tree will help you find the right AWS compute service for your workload.
 
-Either refer to the flowchart or the Viget Storyboard to find the right AWS compute service to suite your needs.
+Either refer to the flowchart or the storyboard to find the right AWS compute service to suite your needs.
 
 ## Storyboard
 
@@ -14,9 +14,13 @@ Feel free to create your own using the `storyboard.json` file. Simply copy the J
 
 ## Flowchart
 
-The flowchart is created using the VS Code extension [Draw.io Integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio-insiders-build). This extension enables you to create draw.io diagrams from the VS Code editor and have them automatically be saved as Scalable Vector Graphics (SVG).
+The flowcharts are created using the VS Code extension [Draw.io Integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio-insiders-build). This extension enables you to create draw.io diagrams from the VS Code editor and have them automatically be saved as Scalable Vector Graphics (SVG).
 
 ## Changelog
+
+- 2.1.0:
+
+  - Split flowchart into individual flowcharts based on application (e.g. analytical, application, machine learning).
 
 - 2.0.0:
 
