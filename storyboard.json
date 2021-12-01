@@ -805,7 +805,7 @@
           "label": "No"
         }
       ],
-      "name": "Is your workload highly concurrent or long running?",
+      "name": "Is your workload highly concurrent or long-running?",
       "color": "#00bfff"
     },
     {
