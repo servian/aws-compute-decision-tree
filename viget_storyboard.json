@@ -1,0 +1,4558 @@
+{
+  "copiedNodes": [
+    {
+      "id": "34f9e397-0601-4894-a706-86431f476b6f",
+      "type": "default",
+      "selected": true,
+      "x": -240.27735423841412,
+      "y": 2030.8600676547735,
+      "extras": {},
+      "ports": [
+        {
+          "id": "59170cad-36be-4b6d-bf93-53b43ec450e8",
+          "type": "default",
+          "selected": false,
+          "name": "46e10351-0ca5-445c-b41b-5726d7abcd50",
+          "parentNode": "34f9e397-0601-4894-a706-86431f476b6f",
+          "links": ["3e2dc3d2-18f0-4e0b-b11b-672eed2fc110"],
+          "in": false,
+          "label": "Analytical"
+        },
+        {
+          "id": "fdedf886-db16-4642-a1d7-51f6823efa7b",
+          "type": "default",
+          "selected": false,
+          "name": "75ee643b-e9f4-4f71-96bc-daa9e62b05db",
+          "parentNode": "34f9e397-0601-4894-a706-86431f476b6f",
+          "links": ["7ca3b926-e740-409e-8ca0-136eb08a7725"],
+          "in": false,
+          "label": "Application"
+        },
+        {
+          "id": "06228208-77d4-4ff7-be2a-42b56bc127ac",
+          "type": "default",
+          "selected": false,
+          "name": "0b39669a-6716-4b7d-a809-6a11effc9c06",
+          "parentNode": "34f9e397-0601-4894-a706-86431f476b6f",
+          "links": ["1edb8522-ea5a-43dd-b582-32396d2d0beb"],
+          "in": false,
+          "label": "Machine Learning"
+        }
+      ],
+      "name": "What type of workload are you dealing with?",
+      "color": "#4CAF50"
+    },
+    {
+      "id": "7c42b369-6f76-4b08-8512-489a02dd2b05",
+      "type": "default",
+      "selected": true,
+      "x": 466.7673906340974,
+      "y": 735.4492844702623,
+      "extras": {},
+      "ports": [
+        {
+          "id": "604f28aa-e33b-4233-88bb-18fe753d784e",
+          "type": "default",
+          "selected": false,
+          "name": "01247fcc-ed87-488b-9edd-13b9279856a0",
+          "parentNode": "7c42b369-6f76-4b08-8512-489a02dd2b05",
+          "links": ["3e2dc3d2-18f0-4e0b-b11b-672eed2fc110"],
+          "in": true,
+          "label": "Input"
+        },
+        {
+          "id": "d5c6cba3-cca7-415c-bde4-2d7e3ac5e293",
+          "type": "default",
+          "selected": false,
+          "name": "21653106-64c6-4009-8236-9ffef2226f86",
+          "parentNode": "7c42b369-6f76-4b08-8512-489a02dd2b05",
+          "links": ["fc0d0385-1863-4c71-ad82-6e611bbde128"],
+          "in": false,
+          "label": "Yes"
+        },
+        {
+          "id": "520078fc-e385-439c-981b-a2d73eda80e7",
+          "type": "default",
+          "selected": false,
+          "name": "882cf1f2-c252-4a54-9e2b-15e918c4545d",
+          "parentNode": "7c42b369-6f76-4b08-8512-489a02dd2b05",
+          "links": ["efe4587f-34bf-46c7-940d-668e2f8314ed"],
+          "in": false,
+          "label": "No"
+        }
+      ],
+      "name": "Do you prefer using SQL?",
+      "color": "#00bfff"
+    },
+    {
+      "id": "b855aef0-d1c6-4d0d-a48e-5ba193a3b9d2",
+      "type": "default",
+      "selected": true,
+      "x": 510.21456360260845,
+      "y": 2723.8679454761686,
+      "extras": {},
+      "ports": [
+        {
+          "id": "156dde2f-d4ed-4e10-8241-033a34d4fc1e",
+          "type": "default",
+          "selected": false,
+          "name": "d003fe27-f7c6-4100-b128-d703a7f4f1b1",
+          "parentNode": "b855aef0-d1c6-4d0d-a48e-5ba193a3b9d2",
+          "links": ["1edb8522-ea5a-43dd-b582-32396d2d0beb"],
+          "in": true,
+          "label": "Input"
+        },
+        {
+          "id": "96205078-b65d-4347-a2c1-8f5fb135148d",
+          "type": "default",
+          "selected": false,
+          "name": "03f08516-0514-4f7f-8b5c-26b28994d177",
+          "parentNode": "b855aef0-d1c6-4d0d-a48e-5ba193a3b9d2",
+          "links": ["7c781f14-e8ad-4c3e-9e45-64c3774ee70d"],
+          "in": false,
+          "label": "Yes"
+        },
+        {
+          "id": "d870875d-29d7-4d9b-a474-01bba3b22cd0",
+          "type": "default",
+          "selected": false,
+          "name": "91ab8cab-67da-43cb-9cad-0395812a78d3",
+          "parentNode": "b855aef0-d1c6-4d0d-a48e-5ba193a3b9d2",
+          "links": ["612bbedd-fcd1-41dd-84a8-9329707d9892"],
+          "in": false,
+          "label": "No"
+        }
+      ],
+      "name": "Do you require distributed computing?",
+      "color": "#00bfff"
+    },
+    {
+      "id": "1c611d93-489b-49b0-9b16-6043d61e4c1a",
+      "type": "default",
+      "selected": true,
+      "x": 720.8235845684172,
+      "y": 463.00823967422394,
+      "extras": {},
+      "ports": [
+        {
+          "id": "14076e2f-3e9e-45b0-9fb2-569ffb5e9fc1",
+          "type": "default",
+          "selected": false,
+          "name": "9a56b0fd-f29d-4c3d-92e6-313fc241227f",
+          "parentNode": "1c611d93-489b-49b0-9b16-6043d61e4c1a",
+          "links": ["fc0d0385-1863-4c71-ad82-6e611bbde128"],
+          "in": true,
+          "label": "In"
+        },
+        {
+          "id": "968fe4df-e915-4b48-9571-dc49b7b82a45",
+          "type": "default",
+          "selected": false,
+          "name": "b7c7b26d-7379-4f12-886b-bb82e5958741",
+          "parentNode": "1c611d93-489b-49b0-9b16-6043d61e4c1a",
+          "links": ["c90596f1-f6cd-4815-bc29-b8104c04632d"],
+          "in": false,
+          "label": "Yes"
+        },
+        {
+          "id": "62a0eaa8-3b6d-4070-85a8-c3502a6fe436",
+          "type": "default",
+          "selected": false,
+          "name": "f0d1b8f5-2a43-416e-9819-4a72a511290e",
+          "parentNode": "1c611d93-489b-49b0-9b16-6043d61e4c1a",
+          "links": ["4fc1c25e-fcca-41d1-9b21-7ff3a14b0591"],
+          "in": false,
+          "label": "No"
+        }
+      ],
+      "name": "Is your workload dealing with streaming data?",
+      "color": "#00bfff"
+    },
+    {
+      "id": "7d383205-f27b-4c49-a941-2f21f383b8e5",
+      "type": "default",
+      "selected": true,
+      "x": 1012.8690768497778,
+      "y": 294.42032864837597,
+      "extras": {},
+      "ports": [
+        {
+          "id": "a988da4d-5fa1-48dd-8712-8e430320c618",
+          "type": "default",
+          "selected": false,
+          "name": "8d30c58f-6fcc-407b-a79b-b01cf872ec4c",
+          "parentNode": "7d383205-f27b-4c49-a941-2f21f383b8e5",
+          "links": ["c90596f1-f6cd-4815-bc29-b8104c04632d"],
+          "in": true,
+          "label": "In"
+        },
+        {
+          "id": "13bc986e-0f5a-4405-9f5b-a9d650f9af05",
+          "type": "default",
+          "selected": false,
+          "name": "27b643c7-fbd1-4661-8405-bd5be55c00e0",
+          "parentNode": "7d383205-f27b-4c49-a941-2f21f383b8e5",
+          "links": ["a5d97c31-fc74-4323-8338-478b787c4265"],
+          "in": false,
+          "label": "Yes"
+        },
+        {
+          "id": "5396e90f-d90b-41e6-90b2-636de0bd28ee",
+          "type": "default",
+          "selected": false,
+          "name": "e1871471-4812-4694-b210-5293260e5955",
+          "parentNode": "7d383205-f27b-4c49-a941-2f21f383b8e5",
+          "links": ["d4fd246b-1d9e-441e-bf3e-ee7cc6560dca"],
+          "in": false,
+          "label": "No"
+        }
+      ],
+      "name": "Do you prefer to use a fully managed streaming service?",
+      "color": "#00bfff"
+    },
+    {
+      "id": "f3f7ce40-f675-4655-a7ad-48e415024da1",
+      "type": "default",
+      "selected": true,
+      "x": 1324.832590069242,
+      "y": 248.26913168889394,
+      "extras": {},
+      "ports": [
+        {
+          "id": "f3e03e0c-c381-4921-b73d-ae4cfcbfce5e",
+          "type": "default",
+          "selected": false,
+          "name": "3afefeb9-01b8-4b59-ba7f-187630a795fa",
+          "parentNode": "f3f7ce40-f675-4655-a7ad-48e415024da1",
+          "links": ["a5d97c31-fc74-4323-8338-478b787c4265"],
+          "in": true,
+          "label": "In"
+        }
+      ],
+      "name": "Amazon Kinesis Data Analytics",
+      "color": "#808080"
+    },
+    {
+      "id": "3ff79976-abf9-43c3-9758-f9fa570dc946",
+      "type": "default",
+      "selected": true,
+      "x": 1321.8772646964844,
+      "y": 347.651889861967,
+      "extras": {},
+      "ports": [
+        {
+          "id": "a9beea18-96b9-46b1-b496-ff4939aae9ce",
+          "type": "default",
+          "selected": false,
+          "name": "e064cef0-f3d1-4bb4-ac5b-5815ba72800b",
+          "parentNode": "3ff79976-abf9-43c3-9758-f9fa570dc946",
+          "links": ["d4fd246b-1d9e-441e-bf3e-ee7cc6560dca"],
+          "in": true,
+          "label": "In"
+        },
+        {
+          "id": "5969a6d0-750c-4654-b147-6c7d7c8bd77b",
+          "type": "default",
+          "selected": false,
+          "name": "65dc7e8d-8afc-4f7e-8778-54f05e17feb3",
+          "parentNode": "3ff79976-abf9-43c3-9758-f9fa570dc946",
+          "links": ["a2ce2712-7088-4298-8123-870209611246"],
+          "in": false,
+          "label": "Yes"
+        },
+        {
+          "id": "0bfba4d1-b0e4-4c6a-9707-fe0fd84cfb62",
+          "type": "default",
+          "selected": false,
+          "name": "2cbaaa95-22ce-40b2-b500-be899c490322",
+          "parentNode": "3ff79976-abf9-43c3-9758-f9fa570dc946",
+          "links": ["f4c57148-c5c9-4d37-9c87-8ca23446b3a2"],
+          "in": false,
+          "label": "No"
+        }
+      ],
+      "name": "Do you prefer to use a fully managed Spark service?",
+      "color": "#00bfff"
+    },
+    {
+      "id": "295c043d-7e76-4161-82a2-ad239fce7d56",
+      "type": "default",
+      "selected": true,
+      "x": 1681.680644061277,
+      "y": 445.1164050676898,
+      "extras": {},
+      "ports": [
+        {
+          "id": "d1c8ba1b-cef9-4cf8-9178-44db7f1c77c2",
+          "type": "default",
+          "selected": false,
+          "name": "1cc9947e-886e-49a3-8edd-3a2e204d0d13",
+          "parentNode": "295c043d-7e76-4161-82a2-ad239fce7d56",
+          "links": ["f4c57148-c5c9-4d37-9c87-8ca23446b3a2"],
+          "in": true,
+          "label": "In"
+        },
+        {
+          "id": "958880a5-6b66-4aed-958d-e476964db5e9",
+          "type": "default",
+          "selected": false,
+          "name": "1d9ad411-78ea-49fa-a42a-ad9b1b413a47",
+          "parentNode": "295c043d-7e76-4161-82a2-ad239fce7d56",
+          "links": ["a6806ffb-41f0-4032-b06f-dbd2d3a661eb"],
+          "in": false,
+          "label": "Yes"
+        },
+        {
+          "id": "a6fc8938-5c64-4289-b74a-3124b796e1c3",
+          "type": "default",
+          "selected": false,
+          "name": "49fcd587-a079-4757-8447-def2280f3254",
+          "parentNode": "295c043d-7e76-4161-82a2-ad239fce7d56",
+          "links": ["ecd864e0-0196-4543-ae83-b1761650f9db"],
+          "in": false,
+          "label": "No"
+        }
+      ],
+      "name": "Is your workload variable and sporadic?",
+      "color": "#00bfff"
+    },
+    {
+      "id": "29482b63-23d6-4bb3-b88a-3a49ca6f041f",
+      "type": "default",
+      "selected": true,
+      "x": 1682.4837962001245,
+      "y": 314.84541679498864,
+      "extras": {},
+      "ports": [
+        {
+          "id": "5371ead3-d356-4bd1-937a-ce760bea06d1",
+          "type": "default",
+          "selected": false,
+          "name": "9a14fd11-f081-47c6-b02e-7b51dc25614c",
+          "parentNode": "29482b63-23d6-4bb3-b88a-3a49ca6f041f",
+          "links": ["a2ce2712-7088-4298-8123-870209611246"],
+          "in": true,
+          "label": "In"
+        }
+      ],
+      "name": "AWS Glue w/ Spark SQL",
+      "color": "#808080"
+    },
+    {
+      "id": "2ca47610-4d19-4297-b1f0-7564c6297986",
+      "type": "default",
+      "selected": true,
+      "x": 1976.466437636625,
+      "y": 509.99934919497866,
+      "extras": {},
+      "ports": [
+        {
+          "id": "8cb5c6ff-e674-471a-9aa3-022c9af537fa",
+          "type": "default",
+          "selected": false,
+          "name": "4c5a16bb-0d95-4598-ad61-1d12231efdbf",
+          "parentNode": "2ca47610-4d19-4297-b1f0-7564c6297986",
+          "links": ["ecd864e0-0196-4543-ae83-b1761650f9db"],
+          "in": true,
+          "label": "In"
+        }
+      ],
+      "name": "Amazon EMR w/ Spark SQL",
+      "color": "#808080"
+    },
+    {
+      "id": "3f602668-267e-4f4d-978d-8ee7d0aefe6b",
+      "type": "default",
+      "selected": true,
+      "x": 1973.3884804665465,
+      "y": 360.4995912621313,
+      "extras": {},
+      "ports": [
+        {
+          "id": "cadfeeaa-c0c8-4abb-8956-26fda4dd6099",
+          "type": "default",
+          "selected": false,
+          "name": "a2bc0dea-4084-4253-b15c-0d7c00314545",
+          "parentNode": "3f602668-267e-4f4d-978d-8ee7d0aefe6b",
+          "links": ["a6806ffb-41f0-4032-b06f-dbd2d3a661eb"],
+          "in": true,
+          "label": "In"
+        }
+      ],
+      "name": "Amazon EMR Serverless w/ Spark SQL",
+      "color": "#808080"
+    },
+    {
+      "id": "22353144-96f8-4b94-8ded-72c49d60c4a0",
+      "type": "default",
+      "selected": true,
+      "x": 1032.868885816303,
+      "y": 570.6065111530887,
+      "extras": {},
+      "ports": [
+        {
+          "id": "832ce5bb-6e4f-40d3-97b4-1d44df9246fa",
+          "type": "default",
+          "selected": false,
+          "name": "1e06743c-ece8-48bd-a6d4-d0ac7dbb2cf2",
+          "parentNode": "22353144-96f8-4b94-8ded-72c49d60c4a0",
+          "links": ["4fc1c25e-fcca-41d1-9b21-7ff3a14b0591"],
+          "in": true,
+          "label": "In"
+        },
+        {
+          "id": "fcd1cc6f-09f9-4960-8afa-6b83e5c29340",
+          "type": "default",
+          "selected": false,
+          "name": "21d64318-d223-4164-acb4-d6ed7ed04296",
+          "parentNode": "22353144-96f8-4b94-8ded-72c49d60c4a0",
+          "links": ["2fd27fe5-da4a-4c3a-b06d-9d4ff34adc41"],
+          "in": false,
+          "label": "Yes"
+        },
+        {
+          "id": "32f1083e-c7b3-44eb-a1de-6e4d803625cf",
+          "type": "default",
+          "selected": false,
+          "name": "9b629064-0fdc-4cdf-94f9-f7ebcddca8db",
+          "parentNode": "22353144-96f8-4b94-8ded-72c49d60c4a0",
+          "links": ["a92abc0d-5d9a-4134-820d-be47a81edec0"],
+          "in": false,
+          "label": "No"
+        }
+      ],
+      "name": "Is this an ad-hoc or experimental workload?",
+      "color": "#00bfff"
+    },
+    {
+      "id": "85e58736-48a4-468d-a6e7-9aaeac5aab49",
+      "type": "default",
+      "selected": true,
+      "x": 1328.9854289451075,
+      "y": 512.2618600353994,
+      "extras": {},
+      "ports": [
+        {
+          "id": "c91fcef4-ee2e-4ee0-8e1b-b2182f55a071",
+          "type": "default",
+          "selected": false,
+          "name": "d1ff5fa1-2ca5-41b7-b2b6-48f70e8066e7",
+          "parentNode": "85e58736-48a4-468d-a6e7-9aaeac5aab49",
+          "links": ["2fd27fe5-da4a-4c3a-b06d-9d4ff34adc41"],
+          "in": true,
+          "label": "In"
+        }
+      ],
+      "name": "Amazon Athena",
+      "color": "#808080"
+    },
+    {
+      "id": "ee0c982f-6c76-440a-86f6-159e09455d2e",
+      "type": "default",
+      "selected": true,
+      "x": 1334.7114650348476,
+      "y": 629.4703293215078,
+      "extras": {},
+      "ports": [
+        {
+          "id": "ec7afa93-a065-468f-8582-57eedc65ee40",
+          "type": "default",
+          "selected": false,
+          "name": "8e80bea0-19e0-4d7c-b33c-054a35112189",
+          "parentNode": "ee0c982f-6c76-440a-86f6-159e09455d2e",
+          "links": ["a92abc0d-5d9a-4134-820d-be47a81edec0"],
+          "in": true,
+          "label": "In"
+        },
+        {
+          "id": "5babaf9e-38ee-49d7-af0e-af927a6ecf2e",
+          "type": "default",
+          "selected": false,
+          "name": "17bc7e92-e576-4d35-b4ab-9eff2d23da19",
+          "parentNode": "ee0c982f-6c76-440a-86f6-159e09455d2e",
+          "links": ["d79b717f-5435-42db-81a3-a181050daff5"],
+          "in": false,
+          "label": "Yes"
+        },
+        {
+          "id": "c5454fc0-2134-45b7-9077-b9d5697e68a4",
+          "type": "default",
+          "selected": false,
+          "name": "8c485094-6fca-4fdb-a243-9d85dee9029e",
+          "parentNode": "ee0c982f-6c76-440a-86f6-159e09455d2e",
+          "links": ["8ffc31a9-2e04-4008-8729-5017c8372c68"],
+          "in": false,
+          "label": "No"
+        }
+      ],
+      "name": "Does the workload resemble a data warehouse?",
+      "color": "#00bfff"
+    },
+    {
+      "id": "7f924c5e-b881-4de2-b043-8536edf31851",
+      "type": "default",
+      "selected": true,
+      "x": 1658.4880353723731,
+      "y": 631.764093257174,
+      "extras": {},
+      "ports": [
+        {
+          "id": "07e9590c-387e-4ef7-867c-c17e0264e71a",
+          "type": "default",
+          "selected": false,
+          "name": "85befac8-2e87-4e0c-ac74-7e3e75f78e2a",
+          "parentNode": "7f924c5e-b881-4de2-b043-8536edf31851",
+          "links": ["d79b717f-5435-42db-81a3-a181050daff5"],
+          "in": true,
+          "label": "In"
+        },
+        {
+          "id": "f32f13d8-f236-4cd2-a884-ff360f07e668",
+          "type": "default",
+          "selected": false,
+          "name": "9ddd46f1-c8e9-4b40-a056-435336173d91",
+          "parentNode": "7f924c5e-b881-4de2-b043-8536edf31851",
+          "links": ["8d238877-6629-4a74-aae9-afcebaa88984"],
+          "in": false,
+          "label": "Yes"
+        },
+        {
+          "id": "6e09e53c-e48f-4df4-8046-769b159424f4",
+          "type": "default",
+          "selected": false,
+          "name": "e2d14443-dfad-4ad1-8fad-fbb151f373db",
+          "parentNode": "7f924c5e-b881-4de2-b043-8536edf31851",
+          "links": ["c2fb1e6e-b893-4dbd-b598-b378d87221c4"],
+          "in": false,
+          "label": "No"
+        }
+      ],
+      "name": "Is your workload variable and sporadic?",
+      "color": "#00bfff"
+    },
+    {
+      "id": "548805d8-d71b-41c5-b0ea-8fc5fe743d96",
+      "type": "default",
+      "selected": true,
+      "x": 1969.1066405343875,
+      "y": 614.3393287970695,
+      "extras": {},
+      "ports": [
+        {
+          "id": "f1c25aa7-c465-4aee-b843-4ba9c8ab400f",
+          "type": "default",
+          "selected": false,
+          "name": "4aa8c31a-0c9f-4443-9a2c-56e725b1c6fd",
+          "parentNode": "548805d8-d71b-41c5-b0ea-8fc5fe743d96",
+          "links": ["8d238877-6629-4a74-aae9-afcebaa88984"],
+          "in": true,
+          "label": "In"
+        }
+      ],
+      "name": "Amazon Redshift Serverless",
+      "color": "#808080"
+    },
+    {
+      "id": "22f4aabb-c770-4b19-b4f0-9fdb398ed973",
+      "type": "default",
+      "selected": true,
+      "x": 1990.754126228846,
+      "y": 734.5084890500253,
+      "extras": {},
+      "ports": [
+        {
+          "id": "86c6c037-e278-4ba6-8ea5-22063c4cf015",
+          "type": "default",
+          "selected": false,
+          "name": "493f5e90-d9de-4366-8b67-86bcc8688528",
+          "parentNode": "22f4aabb-c770-4b19-b4f0-9fdb398ed973",
+          "links": ["c2fb1e6e-b893-4dbd-b598-b378d87221c4"],
+          "in": true,
+          "label": "In"
+        }
+      ],
+      "name": "Amazon Redshift",
+      "color": "#808080"
+    },
+    {
+      "id": "a1437c33-decb-45a4-b447-f644be676af8",
+      "type": "default",
+      "selected": true,
+      "x": 1651.3493174697246,
+      "y": 778.7918931258016,
+      "extras": {},
+      "ports": [
+        {
+          "id": "dc8e529c-b618-4ff9-a3ad-ccb672592823",
+          "type": "default",
+          "selected": false,
+          "name": "e6ce3461-fbe5-46be-bff0-7d7fd7b348e3",
+          "parentNode": "a1437c33-decb-45a4-b447-f644be676af8",
+          "links": ["8ffc31a9-2e04-4008-8729-5017c8372c68"],
+          "in": true,
+          "label": "In"
+        },
+        {
+          "id": "6d7e7032-651c-49fe-8f41-b640b74d3b52",
+          "type": "default",
+          "selected": false,
+          "name": "48ed3ceb-4c1b-4632-9222-1ca78040e94c",
+          "parentNode": "a1437c33-decb-45a4-b447-f644be676af8",
+          "links": ["87c300e1-0aeb-44ab-89b2-1b8a6a96b0b2"],
+          "in": false,
+          "label": "Yes"
+        },
+        {
+          "id": "5e7a8224-4c84-426e-9656-4ac9b6db888c",
+          "type": "default",
+          "selected": false,
+          "name": "19e98c34-5de3-40ce-9e27-953815afc0d2",
+          "parentNode": "a1437c33-decb-45a4-b447-f644be676af8",
+          "links": ["5def247b-5f05-4332-8926-8e5af163d599"],
+          "in": false,
+          "label": "No"
+        }
+      ],
+      "name": "Do you prefer to use a fully managed Spark service?",
+      "color": "#00bfff"
+    },
+    {
+      "id": "1f1cdb66-1f31-46f8-a03f-b3a44496a6f8",
+      "type": "default",
+      "selected": true,
+      "x": 2007.5079208602583,
+      "y": 847.5562727478941,
+      "extras": {},
+      "ports": [
+        {
+          "id": "0c4dd3be-a79e-45f6-8651-161636f37b64",
+          "type": "default",
+          "selected": false,
+          "name": "b110bad4-72cf-4901-9016-ca212076c50a",
+          "parentNode": "1f1cdb66-1f31-46f8-a03f-b3a44496a6f8",
+          "links": ["87c300e1-0aeb-44ab-89b2-1b8a6a96b0b2"],
+          "in": true,
+          "label": "In"
+        }
+      ],
+      "name": "AWS Glue w/ Spark SQL",
+      "color": "#808080"
+    },
+    {
+      "id": "1ddb755f-961d-40c0-9bde-0e68b0a7c6b7",
+      "type": "default",
+      "selected": true,
+      "x": 1935.8056864800428,
+      "y": 975.2825801040844,
+      "extras": {},
+      "ports": [
+        {
+          "id": "febb531c-b8b0-4b23-916d-9c0259a81707",
+          "type": "default",
+          "selected": false,
+          "name": "8536305b-d6e0-4115-a395-d371c0f67375",
+          "parentNode": "1ddb755f-961d-40c0-9bde-0e68b0a7c6b7",
+          "links": ["5def247b-5f05-4332-8926-8e5af163d599"],
+          "in": true,
+          "label": "In"
+        },
+        {
+          "id": "0b1e195a-b8b6-48db-ae2e-63f6fee6b821",
+          "type": "default",
+          "selected": false,
+          "name": "9b9fec9d-595e-4b5a-8783-c25cccac9eb2",
+          "parentNode": "1ddb755f-961d-40c0-9bde-0e68b0a7c6b7",
+          "links": ["7cae80fc-553f-4d6c-bb32-84d5b3289837"],
+          "in": false,
+          "label": "Yes"
+        },
+        {
+          "id": "6486e28b-673f-4819-927f-eb9b3fac4c30",
+          "type": "default",
+          "selected": false,
+          "name": "ed0f006a-e69a-45db-9cc7-6337d8995846",
+          "parentNode": "1ddb755f-961d-40c0-9bde-0e68b0a7c6b7",
+          "links": ["c8c412fd-d943-4698-b3f9-2608ebd88026"],
+          "in": false,
+          "label": "No"
+        }
+      ],
+      "name": "Is your workload variable and sporadic?",
+      "color": "#00bfff"
+    },
+    {
+      "id": "0e8f8140-627b-4a3c-8f4b-a262602af066",
+      "type": "default",
+      "selected": true,
+      "x": 2251.115488538809,
+      "y": 903.071188070604,
+      "extras": {},
+      "ports": [
+        {
+          "id": "c4395a3e-77ba-4c06-a719-ea20d314bf87",
+          "type": "default",
+          "selected": false,
+          "name": "4c0b13f0-8958-4bd1-b4dc-5f9a2bf55d43",
+          "parentNode": "0e8f8140-627b-4a3c-8f4b-a262602af066",
+          "links": ["7cae80fc-553f-4d6c-bb32-84d5b3289837"],
+          "in": true,
+          "label": "In"
+        }
+      ],
+      "name": "Amazon EMR Serverless w/ Spark SQL",
+      "color": "#808080"
+    },
+    {
+      "id": "5732ab0b-e6a4-44dc-847a-7e9804c6446f",
+      "type": "default",
+      "selected": true,
+      "x": 2272.107801741335,
+      "y": 1032.7929237851506,
+      "extras": {},
+      "ports": [
+        {
+          "id": "3d85dd82-ff39-49ec-94b0-d73224310122",
+          "type": "default",
+          "selected": false,
+          "name": "4c0b13f0-8958-4bd1-b4dc-5f9a2bf55d43",
+          "parentNode": "5732ab0b-e6a4-44dc-847a-7e9804c6446f",
+          "links": ["c8c412fd-d943-4698-b3f9-2608ebd88026"],
+          "in": true,
+          "label": "In"
+        }
+      ],
+      "name": "Amazon EMR w/ Spark SQL",
+      "color": "#808080"
+    },
+    {
+      "id": "d5a14260-bd0d-491e-a197-7f06eb986cb0",
+      "type": "default",
+      "selected": true,
+      "x": 535.4671470015313,
+      "y": 2074.546284586805,
+      "extras": {},
+      "ports": [
+        {
+          "id": "0c8ffe6a-96c2-4e86-a30c-0afd6b7a3ce9",
+          "type": "default",
+          "selected": false,
+          "name": "d413d986-f997-4580-9f88-e84e64791cdb",
+          "parentNode": "d5a14260-bd0d-491e-a197-7f06eb986cb0",
+          "links": ["7ca3b926-e740-409e-8ca0-136eb08a7725"],
+          "in": true,
+          "label": "In"
+        },
+        {
+          "id": "a3857fe2-57f7-4ae7-b8a2-16afcac9af2c",
+          "type": "default",
+          "selected": false,
+          "name": "f388643a-81fa-44a1-849f-c0f2e7218be3",
+          "parentNode": "d5a14260-bd0d-491e-a197-7f06eb986cb0",
+          "links": ["bbad8070-a744-492f-9a5a-e7f4f890c4f7"],
+          "in": false,
+          "label": "Yes"
+        },
+        {
+          "id": "f32f146c-6915-4287-bbdd-0f06934037e6",
+          "type": "default",
+          "selected": false,
+          "name": "2d8d4d6e-c0e7-491f-9662-8dd42a5ad7d0",
+          "parentNode": "d5a14260-bd0d-491e-a197-7f06eb986cb0",
+          "links": ["89b3e2ad-4ee0-43e0-b131-e6abfbfb53b5"],
+          "in": false,
+          "label": "No"
+        }
+      ],
+      "name": "Is your workload event-driven?",
+      "color": "#00bfff"
+    },
+    {
+      "id": "8bc03e97-e972-4688-824a-6449996b7e36",
+      "type": "default",
+      "selected": true,
+      "x": 840.5835584191358,
+      "y": 1985.7155544733114,
+      "extras": {},
+      "ports": [
+        {
+          "id": "4d69a2fb-27ed-40ae-abde-9e0adf1f7e6c",
+          "type": "default",
+          "selected": false,
+          "name": "37986534-52cc-4394-a605-22c9e1ef929b",
+          "parentNode": "8bc03e97-e972-4688-824a-6449996b7e36",
+          "links": ["bbad8070-a744-492f-9a5a-e7f4f890c4f7"],
+          "in": true,
+          "label": "In"
+        },
+        {
+          "id": "ea87f383-05e7-41be-9bb5-a4233a48eb51",
+          "type": "default",
+          "selected": false,
+          "name": "8b763ce3-e67b-4bdf-a97c-9c7c76059ce3",
+          "parentNode": "8bc03e97-e972-4688-824a-6449996b7e36",
+          "links": ["500d8864-7820-402b-bf07-cab5008347ee"],
+          "in": false,
+          "label": "Yes"
+        },
+        {
+          "id": "ba2689ad-a1df-4d07-a895-e413a8385ccb",
+          "type": "default",
+          "selected": false,
+          "name": "21212be4-1726-49d4-9c32-fe48621d43cf",
+          "parentNode": "8bc03e97-e972-4688-824a-6449996b7e36",
+          "links": ["069b16eb-7dfe-4879-b5b6-bddd238c59e7"],
+          "in": false,
+          "label": "No"
+        }
+      ],
+      "name": "Is your workload highly concurrent or long running?",
+      "color": "#00bfff"
+    },
+    {
+      "id": "4e78acb8-5f94-4c33-8cec-2e907d0bd759",
+      "type": "default",
+      "selected": true,
+      "x": 1130.2610815247465,
+      "y": 2016.0211618087935,
+      "extras": {},
+      "ports": [
+        {
+          "id": "48aa810b-29dd-49a6-8695-dc1493e04742",
+          "type": "default",
+          "selected": false,
+          "name": "2c7eda63-bfa2-4ed4-9448-e9c96469ef46",
+          "parentNode": "4e78acb8-5f94-4c33-8cec-2e907d0bd759",
+          "links": ["069b16eb-7dfe-4879-b5b6-bddd238c59e7"],
+          "in": true,
+          "label": "In"
+        }
+      ],
+      "name": "AWS Lambda",
+      "color": "#808080"
+    },
+    {
+      "id": "dc279070-6e1d-4554-85b6-c7f864129546",
+      "type": "default",
+      "selected": true,
+      "x": 1129.1982124582971,
+      "y": 1908.9525950436705,
+      "extras": {},
+      "ports": [
+        {
+          "id": "54529acf-c835-40e6-a3bf-d34e572eb510",
+          "type": "default",
+          "selected": false,
+          "name": "a4c3795b-945f-4b37-ac6d-a2c65728cd08",
+          "parentNode": "dc279070-6e1d-4554-85b6-c7f864129546",
+          "links": ["500d8864-7820-402b-bf07-cab5008347ee"],
+          "in": true,
+          "label": "In"
+        }
+      ],
+      "name": "AWS App Runner",
+      "color": "#808080"
+    },
+    {
+      "id": "af2ec5df-e6bc-4257-82b8-b8b1a571c2da",
+      "type": "default",
+      "selected": true,
+      "x": 847.0182529628738,
+      "y": 2131.1710825655637,
+      "extras": {},
+      "ports": [
+        {
+          "id": "306fdcca-735f-4785-a5ef-58675d357b36",
+          "type": "default",
+          "selected": false,
+          "name": "2c1bc232-0026-4ca0-8d04-4e8020bd42fa",
+          "parentNode": "af2ec5df-e6bc-4257-82b8-b8b1a571c2da",
+          "links": ["89b3e2ad-4ee0-43e0-b131-e6abfbfb53b5"],
+          "in": true,
+          "label": "In"
+        },
+        {
+          "id": "18c7a9b3-6180-4038-8787-6e16d4def552",
+          "type": "default",
+          "selected": false,
+          "name": "95c7296b-7102-4e11-9eb2-edea1f5f7d71",
+          "parentNode": "af2ec5df-e6bc-4257-82b8-b8b1a571c2da",
+          "links": ["41fe29c2-cfd6-452d-a636-b228c5467c35"],
+          "in": false,
+          "label": "Yes"
+        },
+        {
+          "id": "1b783da6-b3b0-437e-ba55-95d53818b565",
+          "type": "default",
+          "selected": false,
+          "name": "5355217c-e297-437e-b70d-9b156e7ee78c",
+          "parentNode": "af2ec5df-e6bc-4257-82b8-b8b1a571c2da",
+          "links": ["41d54a58-65af-4eb0-92fc-2f72e834520a"],
+          "in": false,
+          "label": "No"
+        }
+      ],
+      "name": "Does your workload require a managed application framework?",
+      "color": "#00bfff"
+    },
+    {
+      "id": "e3ed16c2-f507-4d1a-836c-872a97d7831c",
+      "type": "default",
+      "selected": true,
+      "x": 1131.2598880185533,
+      "y": 2123.0518540776275,
+      "extras": {},
+      "ports": [
+        {
+          "id": "5f5b5d68-bfce-45c6-9f27-3d9066c55df1",
+          "type": "default",
+          "selected": false,
+          "name": "e3add945-096e-44f5-aaac-1f9c2f43adae",
+          "parentNode": "e3ed16c2-f507-4d1a-836c-872a97d7831c",
+          "links": ["41fe29c2-cfd6-452d-a636-b228c5467c35"],
+          "in": true,
+          "label": "In"
+        }
+      ],
+      "name": "AWS Elastic Beanstalk",
+      "color": "#808080"
+    },
+    {
+      "id": "1418774f-84cc-41f9-b1ee-4149bc231228",
+      "type": "default",
+      "selected": true,
+      "x": 1132.7723532759653,
+      "y": 2233.0491304580673,
+      "extras": {},
+      "ports": [
+        {
+          "id": "becde989-eff7-4c7b-bfac-021958a0b855",
+          "type": "default",
+          "selected": false,
+          "name": "d719465b-c030-43bd-a1ca-3e1c1de700c4",
+          "parentNode": "1418774f-84cc-41f9-b1ee-4149bc231228",
+          "links": ["41d54a58-65af-4eb0-92fc-2f72e834520a"],
+          "in": true,
+          "label": "In"
+        },
+        {
+          "id": "cc20a409-764b-441c-aea9-306c43a4bbec",
+          "type": "default",
+          "selected": false,
+          "name": "a497a554-e1f4-48b2-89a2-587e8a9c472e",
+          "parentNode": "1418774f-84cc-41f9-b1ee-4149bc231228",
+          "links": ["63cfa7be-6a8e-4f3a-835f-324ef74268ae"],
+          "in": false,
+          "label": "Yes"
+        },
+        {
+          "id": "a0a03577-0629-413d-9ddf-6009bedc4b53",
+          "type": "default",
+          "selected": false,
+          "name": "e3c1dba4-ea3d-4a0a-9434-5aac5848940d",
+          "parentNode": "1418774f-84cc-41f9-b1ee-4149bc231228",
+          "links": ["dc857e8f-749f-4134-89d3-fbb7d18bf53b"],
+          "in": false,
+          "label": "No"
+        }
+      ],
+      "name": "Is your workload compatible with containers?",
+      "color": "#00bfff"
+    },
+    {
+      "id": "6483a393-fea5-4fef-b5a4-54063daefb0f",
+      "type": "default",
+      "selected": true,
+      "x": 1421.527932129445,
+      "y": 2332.359995162097,
+      "extras": {},
+      "ports": [
+        {
+          "id": "93f66b99-9d0c-49d7-bdbf-b613287c4bd2",
+          "type": "default",
+          "selected": false,
+          "name": "424c8431-9471-4812-bdc3-096300134423",
+          "parentNode": "6483a393-fea5-4fef-b5a4-54063daefb0f",
+          "links": ["dc857e8f-749f-4134-89d3-fbb7d18bf53b"],
+          "in": true,
+          "label": "In"
+        }
+      ],
+      "name": "Amazon EC2",
+      "color": "#808080"
+    },
+    {
+      "id": "b181a7af-63ed-48d4-b74b-93143f8cea48",
+      "type": "default",
+      "selected": true,
+      "x": 1412.415036131442,
+      "y": 2203.100323674269,
+      "extras": {},
+      "ports": [
+        {
+          "id": "c1c89943-15ee-4467-a270-64c772d8987e",
+          "type": "default",
+          "selected": false,
+          "name": "f9e9a245-4076-4d21-a190-976bc3f561c8",
+          "parentNode": "b181a7af-63ed-48d4-b74b-93143f8cea48",
+          "links": ["63cfa7be-6a8e-4f3a-835f-324ef74268ae"],
+          "in": true,
+          "label": "In"
+        },
+        {
+          "id": "47974e33-8472-44ad-988f-0b520fe1558f",
+          "type": "default",
+          "selected": false,
+          "name": "3a76469c-03f2-4c19-a005-69813420fea4",
+          "parentNode": "b181a7af-63ed-48d4-b74b-93143f8cea48",
+          "links": ["f5c91d52-0da4-4f57-90e9-7ef6022b2c94"],
+          "in": false,
+          "label": "Yes"
+        },
+        {
+          "id": "4f73de6e-156d-4d0b-a523-a20c47454f2c",
+          "type": "default",
+          "selected": false,
+          "name": "5969b619-2077-4aec-a79d-4b7195b20f3d",
+          "parentNode": "b181a7af-63ed-48d4-b74b-93143f8cea48",
+          "links": ["8804639a-8c9f-4f7e-96ab-a8a2d2c4cf40"],
+          "in": false,
+          "label": "No"
+        }
+      ],
+      "name": "Do you prefer serverless?",
+      "color": "#00bfff"
+    },
+    {
+      "id": "6c479040-6b10-4705-b4a8-313a4f5f89c2",
+      "type": "default",
+      "selected": true,
+      "x": 1719.1035775199439,
+      "y": 2178.9708394952568,
+      "extras": {},
+      "ports": [
+        {
+          "id": "031b67b1-34be-4b5c-b7e8-76c806532f00",
+          "type": "default",
+          "selected": false,
+          "name": "664aa484-94f2-4f54-9e13-5304172d3e7a",
+          "parentNode": "6c479040-6b10-4705-b4a8-313a4f5f89c2",
+          "links": ["f5c91d52-0da4-4f57-90e9-7ef6022b2c94"],
+          "in": true,
+          "label": "In"
+        }
+      ],
+      "name": "AWS Fargate",
+      "color": "#808080"
+    },
+    {
+      "id": "d3c47290-29a0-4916-9963-4d46ed718545",
+      "type": "default",
+      "selected": true,
+      "x": 1725.8219151400028,
+      "y": 2294.562209454494,
+      "extras": {},
+      "ports": [
+        {
+          "id": "24efec66-2505-43be-875a-b12e498b7b57",
+          "type": "default",
+          "selected": false,
+          "name": "6ba16661-c137-4317-9da3-981ef032172e",
+          "parentNode": "d3c47290-29a0-4916-9963-4d46ed718545",
+          "links": ["8804639a-8c9f-4f7e-96ab-a8a2d2c4cf40"],
+          "in": true,
+          "label": "In"
+        },
+        {
+          "id": "e5099203-8cdb-4a58-a0da-e746d9d4bb2c",
+          "type": "default",
+          "selected": false,
+          "name": "352ecd53-e3d8-4295-9cc7-472ed133223b",
+          "parentNode": "d3c47290-29a0-4916-9963-4d46ed718545",
+          "links": ["f6f2f7c7-8d30-48fb-b156-595712eb2724"],
+          "in": false,
+          "label": "Yes"
+        },
+        {
+          "id": "fd8efbbf-447e-4140-b4e0-fbdc8a97c9a7",
+          "type": "default",
+          "selected": false,
+          "name": "119376c7-88e8-43d2-8607-7972a35529bf",
+          "parentNode": "d3c47290-29a0-4916-9963-4d46ed718545",
+          "links": ["26a58007-f198-4782-b4cb-b7f2d9391ce4"],
+          "in": false,
+          "label": "No"
+        }
+      ],
+      "name": "Do you prefer Kubernetes?",
+      "color": "#00bfff"
+    },
+    {
+      "id": "3c8d599c-8ccd-47bc-afa9-d132bf61b541",
+      "type": "default",
+      "selected": true,
+      "x": 2037.2719091821461,
+      "y": 2270.8558853517006,
+      "extras": {},
+      "ports": [
+        {
+          "id": "01a327fb-9b76-48e7-b388-9f091a0b5eb4",
+          "type": "default",
+          "selected": false,
+          "name": "e4182d36-245a-463d-97c9-7e6201d4f70f",
+          "parentNode": "3c8d599c-8ccd-47bc-afa9-d132bf61b541",
+          "links": ["f6f2f7c7-8d30-48fb-b156-595712eb2724"],
+          "in": true,
+          "label": "In"
+        }
+      ],
+      "name": "Amazon Elastic Kubernetes Service",
+      "color": "#808080"
+    },
+    {
+      "id": "e8238453-1c27-425a-ac47-9b0767f3360d",
+      "type": "default",
+      "selected": true,
+      "x": 2039.721984658709,
+      "y": 2401.541964560447,
+      "extras": {},
+      "ports": [
+        {
+          "id": "1c83034e-ce6c-4e7f-8ea6-618e5c27cada",
+          "type": "default",
+          "selected": false,
+          "name": "c330ebaf-6bde-4fe4-bb1a-222dcc8f818d",
+          "parentNode": "e8238453-1c27-425a-ac47-9b0767f3360d",
+          "links": ["26a58007-f198-4782-b4cb-b7f2d9391ce4"],
+          "in": true,
+          "label": "In"
+        }
+      ],
+      "name": "Amazon Elastic Container Service",
+      "color": "#808080"
+    },
+    {
+      "id": "370250dc-7ffc-487a-bc3e-9c6465f71b60",
+      "type": "default",
+      "selected": true,
+      "x": 738.6399769636231,
+      "y": 1278.2848323757798,
+      "extras": {},
+      "ports": [
+        {
+          "id": "6bcbce53-3f62-49cf-a9f7-1066cf2454c9",
+          "type": "default",
+          "selected": false,
+          "name": "0b00f2b5-310e-44ec-a3f5-cef79c3609fd",
+          "parentNode": "370250dc-7ffc-487a-bc3e-9c6465f71b60",
+          "links": ["efe4587f-34bf-46c7-940d-668e2f8314ed"],
+          "in": true,
+          "label": "In"
+        },
+        {
+          "id": "dd3a0f12-b9f5-4a65-82f7-802d9e2ce214",
+          "type": "default",
+          "selected": false,
+          "name": "38a4d1df-e99c-4a43-9fda-5cb817af416d",
+          "parentNode": "370250dc-7ffc-487a-bc3e-9c6465f71b60",
+          "links": ["58593d71-e55f-4005-a033-9cad619a1def"],
+          "in": false,
+          "label": "Yes"
+        },
+        {
+          "id": "02d86ed2-ca7c-4335-a422-81d7e8738271",
+          "type": "default",
+          "selected": false,
+          "name": "ff2a17c1-6be2-49ee-adc1-32895e6d1de2",
+          "parentNode": "370250dc-7ffc-487a-bc3e-9c6465f71b60",
+          "links": ["8ce0f3e3-e774-482d-968a-bca5f94b4548"],
+          "in": false,
+          "label": "No"
+        }
+      ],
+      "name": "Do you require distributed computing?",
+      "color": "#00bfff"
+    },
+    {
+      "id": "b73c9567-f167-43a1-a0a2-b3a4b6c34e0f",
+      "type": "default",
+      "selected": true,
+      "x": 1034.8644452746898,
+      "y": 1653.1396244239065,
+      "extras": {},
+      "ports": [
+        {
+          "id": "219a3536-73db-4176-9dca-47db73d90f15",
+          "type": "default",
+          "selected": false,
+          "name": "deb77fff-d18b-4cb2-b9dd-0af7868f0c89",
+          "parentNode": "b73c9567-f167-43a1-a0a2-b3a4b6c34e0f",
+          "links": ["8ce0f3e3-e774-482d-968a-bca5f94b4548"],
+          "in": true,
+          "label": "In"
+        },
+        {
+          "id": "dfb86a4e-d594-4264-9f91-291938675ace",
+          "type": "default",
+          "selected": false,
+          "name": "7c1dd41f-8e57-49ad-a3e4-21836a0f7359",
+          "parentNode": "b73c9567-f167-43a1-a0a2-b3a4b6c34e0f",
+          "links": ["7a60dde2-edf0-4e38-a0d8-4f2b2259f229"],
+          "in": false,
+          "label": "Yes"
+        },
+        {
+          "id": "30d5a376-5755-4c0b-9bb6-4374df576321",
+          "type": "default",
+          "selected": false,
+          "name": "b0beab72-17aa-4397-8fc1-a2e8446d9cb9",
+          "parentNode": "b73c9567-f167-43a1-a0a2-b3a4b6c34e0f",
+          "links": ["e8960041-fb62-40a0-a4c1-101dc30ba277"],
+          "in": false,
+          "label": "No"
+        }
+      ],
+      "name": "Is your workload event-driven and short-lived?",
+      "color": "#00bfff"
+    },
+    {
+      "id": "fa49b536-d270-4136-82ea-a508064d5261",
+      "type": "default",
+      "selected": true,
+      "x": 1329.0443439193866,
+      "y": 1603.5076307038767,
+      "extras": {},
+      "ports": [
+        {
+          "id": "904dac44-16a6-4881-bde6-f7a2964a9a39",
+          "type": "default",
+          "selected": false,
+          "name": "2c7eda63-bfa2-4ed4-9448-e9c96469ef46",
+          "parentNode": "fa49b536-d270-4136-82ea-a508064d5261",
+          "links": ["7a60dde2-edf0-4e38-a0d8-4f2b2259f229"],
+          "in": true,
+          "label": "In"
+        }
+      ],
+      "name": "AWS Lambda",
+      "color": "#808080"
+    },
+    {
+      "id": "267fe232-b2ad-4d0a-9792-1ab9dc24b5fe",
+      "type": "default",
+      "selected": true,
+      "x": 1334.9009001036754,
+      "y": 1715.0838500284106,
+      "extras": {},
+      "ports": [
+        {
+          "id": "19905330-585b-4a4e-b00e-f966e7994adc",
+          "type": "default",
+          "selected": false,
+          "name": "0b11fd02-4de0-4d36-a096-cc74817d7e4c",
+          "parentNode": "267fe232-b2ad-4d0a-9792-1ab9dc24b5fe",
+          "links": ["e8960041-fb62-40a0-a4c1-101dc30ba277"],
+          "in": true,
+          "label": "In"
+        },
+        {
+          "id": "4145d0ff-d900-4792-901b-12ed10e3b9f3",
+          "type": "default",
+          "selected": false,
+          "name": "c4c12233-bc99-4f46-8edc-928b8680d8e3",
+          "parentNode": "267fe232-b2ad-4d0a-9792-1ab9dc24b5fe",
+          "links": ["4b000ca1-3fbd-4861-b2dd-bc6b19ca496d"],
+          "in": false,
+          "label": "Yes"
+        },
+        {
+          "id": "bc6a2a26-e1ac-46bf-84aa-8d5b999ae9d6",
+          "type": "default",
+          "selected": false,
+          "name": "5fc2a871-ab1e-4605-8555-65f6ebd9f482",
+          "parentNode": "267fe232-b2ad-4d0a-9792-1ab9dc24b5fe",
+          "links": ["fcaab483-2c18-4784-8a75-5d576972c3de"],
+          "in": false,
+          "label": "No"
+        }
+      ],
+      "name": "Do you require access to the OS or the ability to change your compute configuration?",
+      "color": "#00bfff"
+    },
+    {
+      "id": "b18f54f8-c094-4653-a94f-4980ad7b4065",
+      "type": "default",
+      "selected": true,
+      "x": 1657.1882114018697,
+      "y": 1762.4099689251007,
+      "extras": {},
+      "ports": [
+        {
+          "id": "98011a95-7dc5-4562-a5fc-6ffade2c83b4",
+          "type": "default",
+          "selected": false,
+          "name": "424c8431-9471-4812-bdc3-096300134423",
+          "parentNode": "b18f54f8-c094-4653-a94f-4980ad7b4065",
+          "links": ["4b000ca1-3fbd-4861-b2dd-bc6b19ca496d"],
+          "in": true,
+          "label": "In"
+        }
+      ],
+      "name": "Amazon EC2",
+      "color": "#808080"
+    },
+    {
+      "id": "61c9fb6b-cab3-4e90-adc3-0aa5021ed0ed",
+      "type": "default",
+      "selected": true,
+      "x": 1665.7972078356531,
+      "y": 1878.8387987032393,
+      "extras": {},
+      "ports": [
+        {
+          "id": "5524c4d5-683e-4682-bba5-03b3eaf30e8d",
+          "type": "default",
+          "selected": false,
+          "name": "b110bad4-72cf-4901-9016-ca212076c50a",
+          "parentNode": "61c9fb6b-cab3-4e90-adc3-0aa5021ed0ed",
+          "links": ["fcaab483-2c18-4784-8a75-5d576972c3de"],
+          "in": true,
+          "label": "In"
+        }
+      ],
+      "name": "AWS Glue w/ Python Shell",
+      "color": "#808080"
+    },
+    {
+      "id": "7b3f3ca7-cfb7-487c-8657-27947122e9b9",
+      "type": "default",
+      "selected": true,
+      "x": 1025.87901370803,
+      "y": 1131.1201329625515,
+      "extras": {},
+      "ports": [
+        {
+          "id": "740c234b-7076-4658-962e-0d79fa79a8c4",
+          "type": "default",
+          "selected": false,
+          "name": "9a56b0fd-f29d-4c3d-92e6-313fc241227f",
+          "parentNode": "7b3f3ca7-cfb7-487c-8657-27947122e9b9",
+          "links": ["58593d71-e55f-4005-a033-9cad619a1def"],
+          "in": true,
+          "label": "In"
+        },
+        {
+          "id": "a3c57497-86a6-4f69-977d-3279b4ba8aeb",
+          "type": "default",
+          "selected": false,
+          "name": "b7c7b26d-7379-4f12-886b-bb82e5958741",
+          "parentNode": "7b3f3ca7-cfb7-487c-8657-27947122e9b9",
+          "links": ["633ee4c2-3efb-448b-a9d4-7c53f98a5828"],
+          "in": false,
+          "label": "Yes"
+        },
+        {
+          "id": "b253ab30-870f-41e8-9dc8-8b63b1c1a09c",
+          "type": "default",
+          "selected": false,
+          "name": "f0d1b8f5-2a43-416e-9819-4a72a511290e",
+          "parentNode": "7b3f3ca7-cfb7-487c-8657-27947122e9b9",
+          "links": ["91f980fb-ae6f-457d-9096-1b4b4dab9b6a"],
+          "in": false,
+          "label": "No"
+        }
+      ],
+      "name": "Is your workload dealing with streaming data?",
+      "color": "#00bfff"
+    },
+    {
+      "id": "17ba4482-3614-4286-a21c-af2db08b0032",
+      "type": "default",
+      "selected": true,
+      "x": 1330.1766718208037,
+      "y": 974.139776544755,
+      "extras": {},
+      "ports": [
+        {
+          "id": "f129900f-1f1a-4cbb-ad25-776c136c8a8f",
+          "type": "default",
+          "selected": false,
+          "name": "e064cef0-f3d1-4bb4-ac5b-5815ba72800b",
+          "parentNode": "17ba4482-3614-4286-a21c-af2db08b0032",
+          "links": ["633ee4c2-3efb-448b-a9d4-7c53f98a5828"],
+          "in": true,
+          "label": "In"
+        },
+        {
+          "id": "cd225007-cfc9-4776-8c9d-3eff1e18f809",
+          "type": "default",
+          "selected": false,
+          "name": "65dc7e8d-8afc-4f7e-8778-54f05e17feb3",
+          "parentNode": "17ba4482-3614-4286-a21c-af2db08b0032",
+          "links": ["caf43b0b-d384-4e8b-b262-9edda324397b"],
+          "in": false,
+          "label": "Yes"
+        },
+        {
+          "id": "3077595f-9183-43e7-a1c5-760bf69d27f2",
+          "type": "default",
+          "selected": false,
+          "name": "2cbaaa95-22ce-40b2-b500-be899c490322",
+          "parentNode": "17ba4482-3614-4286-a21c-af2db08b0032",
+          "links": ["38a0935c-a716-4be3-8e12-4ccf52090888"],
+          "in": false,
+          "label": "No"
+        }
+      ],
+      "name": "Do you prefer to use a fully managed Spark service?",
+      "color": "#00bfff"
+    },
+    {
+      "id": "c6e09fda-890e-416e-af23-ab20c6ab8bf0",
+      "type": "default",
+      "selected": true,
+      "x": 1667.067532753147,
+      "y": 963.4679293443203,
+      "extras": {},
+      "ports": [
+        {
+          "id": "47b6d6af-bec4-4c7d-8c1e-19aedecdf43c",
+          "type": "default",
+          "selected": false,
+          "name": "9a14fd11-f081-47c6-b02e-7b51dc25614c",
+          "parentNode": "c6e09fda-890e-416e-af23-ab20c6ab8bf0",
+          "links": ["caf43b0b-d384-4e8b-b262-9edda324397b"],
+          "in": true,
+          "label": "In"
+        }
+      ],
+      "name": "AWS Glue w/ Spark",
+      "color": "#808080"
+    },
+    {
+      "id": "3e8db6da-0d8c-4c0a-ae8a-d401c6d8593b",
+      "type": "default",
+      "selected": true,
+      "x": 1644.129754747756,
+      "y": 1158.5617505118992,
+      "extras": {},
+      "ports": [
+        {
+          "id": "a7a85668-61ed-4b2b-bd06-e27db0697054",
+          "type": "default",
+          "selected": false,
+          "name": "1cc9947e-886e-49a3-8edd-3a2e204d0d13",
+          "parentNode": "3e8db6da-0d8c-4c0a-ae8a-d401c6d8593b",
+          "links": ["38a0935c-a716-4be3-8e12-4ccf52090888"],
+          "in": true,
+          "label": "In"
+        },
+        {
+          "id": "6ebb6328-166c-4cd8-a510-0385c6062972",
+          "type": "default",
+          "selected": false,
+          "name": "1d9ad411-78ea-49fa-a42a-ad9b1b413a47",
+          "parentNode": "3e8db6da-0d8c-4c0a-ae8a-d401c6d8593b",
+          "links": ["48f8cf18-2bb1-4a6e-bcf1-661d7d67d729"],
+          "in": false,
+          "label": "Yes"
+        },
+        {
+          "id": "3d635fbc-eb2f-46e7-a533-113da2dcdc9a",
+          "type": "default",
+          "selected": false,
+          "name": "49fcd587-a079-4757-8447-def2280f3254",
+          "parentNode": "3e8db6da-0d8c-4c0a-ae8a-d401c6d8593b",
+          "links": ["d294f9e8-63ba-4f0c-aab9-c50111c22c8b"],
+          "in": false,
+          "label": "No"
+        }
+      ],
+      "name": "Is your workload variable and sporadic?",
+      "color": "#00bfff"
+    },
+    {
+      "id": "f5ab2101-3795-4102-a352-962f85759020",
+      "type": "default",
+      "selected": true,
+      "x": 1946.9049040862974,
+      "y": 1097.6606072776374,
+      "extras": {},
+      "ports": [
+        {
+          "id": "f6d66f39-73bd-4089-a825-7917e5cdcd42",
+          "type": "default",
+          "selected": false,
+          "name": "a2bc0dea-4084-4253-b15c-0d7c00314545",
+          "parentNode": "f5ab2101-3795-4102-a352-962f85759020",
+          "links": ["48f8cf18-2bb1-4a6e-bcf1-661d7d67d729"],
+          "in": true,
+          "label": "In"
+        }
+      ],
+      "name": "Amazon EMR Serverless w/ Spark",
+      "color": "#808080"
+    },
+    {
+      "id": "64f9c9de-a8f9-40e9-8f1b-bb10a5e05fc8",
+      "type": "default",
+      "selected": true,
+      "x": 1945.7180429820978,
+      "y": 1235.6056801917123,
+      "extras": {},
+      "ports": [
+        {
+          "id": "c147ea88-8b1b-4e61-a5f2-46b236c402fd",
+          "type": "default",
+          "selected": false,
+          "name": "a2bc0dea-4084-4253-b15c-0d7c00314545",
+          "parentNode": "64f9c9de-a8f9-40e9-8f1b-bb10a5e05fc8",
+          "links": ["d294f9e8-63ba-4f0c-aab9-c50111c22c8b"],
+          "in": true,
+          "label": "In"
+        }
+      ],
+      "name": "Amazon EMR w/ Spark",
+      "color": "#808080"
+    },
+    {
+      "id": "550d589b-f50b-4394-80e7-28543ad0c847",
+      "type": "default",
+      "selected": true,
+      "x": 1313.5444827041506,
+      "y": 1354.8854845758256,
+      "extras": {},
+      "ports": [
+        {
+          "id": "799676eb-c406-4be5-9437-d680e236396e",
+          "type": "default",
+          "selected": false,
+          "name": "045b5d86-7570-4392-972f-29e02fc7c8a6",
+          "parentNode": "550d589b-f50b-4394-80e7-28543ad0c847",
+          "links": ["91f980fb-ae6f-457d-9096-1b4b4dab9b6a"],
+          "in": true,
+          "label": "In"
+        },
+        {
+          "id": "77a82f49-6299-45c4-b39a-7734a83c4b08",
+          "type": "default",
+          "selected": false,
+          "name": "9fdc6866-b967-4ffd-848f-253c1402d532",
+          "parentNode": "550d589b-f50b-4394-80e7-28543ad0c847",
+          "links": ["0bf6b4ea-e173-4675-91fd-47ec0991e008"],
+          "in": false,
+          "label": "Yes"
+        },
+        {
+          "id": "3cafab93-309a-4a65-b4be-087035c748ca",
+          "type": "default",
+          "selected": false,
+          "name": "09bddaae-2e17-40cc-9dac-e0b6b738ede9",
+          "parentNode": "550d589b-f50b-4394-80e7-28543ad0c847",
+          "links": ["f30bd12c-fa92-47ee-9e75-5cb289b3b5b0"],
+          "in": false,
+          "label": "No"
+        }
+      ],
+      "name": "Do you prefer using Spark?",
+      "color": "#00bfff"
+    },
+    {
+      "id": "0aa69ae4-e880-4f2d-a1f3-fb00ad3ef337",
+      "type": "default",
+      "selected": true,
+      "x": 1627.312085044334,
+      "y": 1572.9860116667155,
+      "extras": {},
+      "ports": [
+        {
+          "id": "02a7bcc2-c04b-45d7-9304-1d7424adb056",
+          "type": "default",
+          "selected": false,
+          "name": "b671c768-4b32-4157-93d9-6261cb049fe2",
+          "parentNode": "0aa69ae4-e880-4f2d-a1f3-fb00ad3ef337",
+          "links": ["f30bd12c-fa92-47ee-9e75-5cb289b3b5b0"],
+          "in": true,
+          "label": "In"
+        },
+        {
+          "id": "e1c57bc4-ab38-4cd3-8398-80daac5a32e1",
+          "type": "default",
+          "selected": false,
+          "name": "e044892a-8d0d-4930-a467-9b47e1d4958b",
+          "parentNode": "0aa69ae4-e880-4f2d-a1f3-fb00ad3ef337",
+          "links": ["b2aee6e6-c078-4542-ba06-df2883354525"],
+          "in": false,
+          "label": "Yes"
+        },
+        {
+          "id": "2bd15f66-ee17-4e3b-a560-c914d22b0951",
+          "type": "default",
+          "selected": false,
+          "name": "a67e1e5d-e8d1-4a86-b3f2-88cc2a23c131",
+          "parentNode": "0aa69ae4-e880-4f2d-a1f3-fb00ad3ef337",
+          "links": ["8d9e5d74-9c77-4ea0-862f-9b12c5e478da"],
+          "in": false,
+          "label": "No"
+        }
+      ],
+      "name": "Do you require inter-task orchestration?",
+      "color": "#00bfff"
+    },
+    {
+      "id": "853e9280-ec35-4e5b-958e-b4b916ea5bac",
+      "type": "default",
+      "selected": true,
+      "x": 1945.6317396577285,
+      "y": 1528.278194403947,
+      "extras": {},
+      "ports": [
+        {
+          "id": "52e09ad4-630b-4e47-9174-148039929cf4",
+          "type": "default",
+          "selected": false,
+          "name": "ba4a0d22-7b1d-452c-bb68-41af8e2ac465",
+          "parentNode": "853e9280-ec35-4e5b-958e-b4b916ea5bac",
+          "links": ["b2aee6e6-c078-4542-ba06-df2883354525"],
+          "in": true,
+          "label": "In"
+        }
+      ],
+      "name": "Amazon Managed Workflows for Apache Airflow",
+      "color": "#808080"
+    },
+    {
+      "id": "45e826cb-d029-4be2-aa55-aa9eed4c1803",
+      "type": "default",
+      "selected": true,
+      "x": 1949.2590960520222,
+      "y": 1694.5218858017292,
+      "extras": {},
+      "ports": [
+        {
+          "id": "64329943-6b7a-4ef4-9bd6-88a487d1a33d",
+          "type": "default",
+          "selected": false,
+          "name": "fbbc1c5a-60a9-4789-b65b-d6ea5a4e2d38",
+          "parentNode": "45e826cb-d029-4be2-aa55-aa9eed4c1803",
+          "links": ["8d9e5d74-9c77-4ea0-862f-9b12c5e478da"],
+          "in": true,
+          "label": "In"
+        }
+      ],
+      "name": "AWS Batch",
+      "color": "#808080"
+    },
+    {
+      "id": "b85fb854-1320-4cf6-b66f-7747840332d8",
+      "type": "default",
+      "selected": true,
+      "x": 1649.842361451595,
+      "y": 1343.5734739825225,
+      "extras": {},
+      "ports": [
+        {
+          "id": "344c6937-d041-4c5a-a3c9-6349f778c9ed",
+          "type": "default",
+          "selected": false,
+          "name": "e064cef0-f3d1-4bb4-ac5b-5815ba72800b",
+          "parentNode": "b85fb854-1320-4cf6-b66f-7747840332d8",
+          "links": ["0bf6b4ea-e173-4675-91fd-47ec0991e008"],
+          "in": true,
+          "label": "In"
+        },
+        {
+          "id": "78ff1c6c-e467-4fbc-80df-a2f6afbffb1d",
+          "type": "default",
+          "selected": false,
+          "name": "65dc7e8d-8afc-4f7e-8778-54f05e17feb3",
+          "parentNode": "b85fb854-1320-4cf6-b66f-7747840332d8",
+          "links": ["0e80f0be-7744-4268-9597-b6fe3ff8ab1a"],
+          "in": false,
+          "label": "Yes"
+        },
+        {
+          "id": "d512ffff-0212-43eb-a05d-d8ad494219d4",
+          "type": "default",
+          "selected": false,
+          "name": "2cbaaa95-22ce-40b2-b500-be899c490322",
+          "parentNode": "b85fb854-1320-4cf6-b66f-7747840332d8",
+          "links": ["8fe3e892-c0b1-45cf-90ab-4435b3ed550c"],
+          "in": false,
+          "label": "No"
+        }
+      ],
+      "name": "Do you prefer to use a fully managed ETL service?",
+      "color": "#00bfff"
+    },
+    {
+      "id": "731c60d9-0048-4f4e-80d5-bc3bdf3e0763",
+      "type": "default",
+      "selected": true,
+      "x": 2173.792286210159,
+      "y": 1286.5658953755928,
+      "extras": {},
+      "ports": [
+        {
+          "id": "f510f3fa-1635-4ced-bc7c-a0458bd0899c",
+          "type": "default",
+          "selected": false,
+          "name": "9a14fd11-f081-47c6-b02e-7b51dc25614c",
+          "parentNode": "731c60d9-0048-4f4e-80d5-bc3bdf3e0763",
+          "links": ["0e80f0be-7744-4268-9597-b6fe3ff8ab1a"],
+          "in": true,
+          "label": "In"
+        }
+      ],
+      "name": "AWS Glue",
+      "color": "#808080"
+    },
+    {
+      "id": "ff161c4a-1835-487c-836b-4e96e8705b6b",
+      "type": "default",
+      "selected": true,
+      "x": 2173.1643048078954,
+      "y": 1411.2980503333088,
+      "extras": {},
+      "ports": [
+        {
+          "id": "b4e0662d-cae3-42ab-b7f6-9cc0e8b3f5c3",
+          "type": "default",
+          "selected": false,
+          "name": "1cc9947e-886e-49a3-8edd-3a2e204d0d13",
+          "parentNode": "ff161c4a-1835-487c-836b-4e96e8705b6b",
+          "links": ["8fe3e892-c0b1-45cf-90ab-4435b3ed550c"],
+          "in": true,
+          "label": "In"
+        },
+        {
+          "id": "71270d7d-c0e1-4344-a885-3a343e8cffe3",
+          "type": "default",
+          "selected": false,
+          "name": "1d9ad411-78ea-49fa-a42a-ad9b1b413a47",
+          "parentNode": "ff161c4a-1835-487c-836b-4e96e8705b6b",
+          "links": ["ee919eae-1361-4c3b-bb97-c377e5740224"],
+          "in": false,
+          "label": "Yes"
+        },
+        {
+          "id": "787713d8-2c7e-4178-9da3-73ca99a02956",
+          "type": "default",
+          "selected": false,
+          "name": "49fcd587-a079-4757-8447-def2280f3254",
+          "parentNode": "ff161c4a-1835-487c-836b-4e96e8705b6b",
+          "links": ["3fcd41b0-abc7-4655-a44c-2b91749382c7"],
+          "in": false,
+          "label": "No"
+        }
+      ],
+      "name": "Is your workload variable and sporadic?",
+      "color": "#00bfff"
+    },
+    {
+      "id": "cf9fe779-303d-4bbf-a4ff-2a251664c4f6",
+      "type": "default",
+      "selected": true,
+      "x": 2532.5720147543752,
+      "y": 1326.3709722956792,
+      "extras": {},
+      "ports": [
+        {
+          "id": "85df0323-940f-4d99-837d-ffb979facaa9",
+          "type": "default",
+          "selected": false,
+          "name": "a2bc0dea-4084-4253-b15c-0d7c00314545",
+          "parentNode": "cf9fe779-303d-4bbf-a4ff-2a251664c4f6",
+          "links": ["ee919eae-1361-4c3b-bb97-c377e5740224"],
+          "in": true,
+          "label": "In"
+        }
+      ],
+      "name": "Amazon EMR Serverless w/ Spark",
+      "color": "#808080"
+    },
+    {
+      "id": "f5fc7eb2-c119-4abd-8537-7f169af1991f",
+      "type": "default",
+      "selected": true,
+      "x": 2536.533568250897,
+      "y": 1496.9226710143246,
+      "extras": {},
+      "ports": [
+        {
+          "id": "33fe9d63-17c3-4de7-8f3c-18ae9eea5f48",
+          "type": "default",
+          "selected": false,
+          "name": "a2bc0dea-4084-4253-b15c-0d7c00314545",
+          "parentNode": "f5fc7eb2-c119-4abd-8537-7f169af1991f",
+          "links": ["3fcd41b0-abc7-4655-a44c-2b91749382c7"],
+          "in": true,
+          "label": "In"
+        }
+      ],
+      "name": "Amazon EMR w/ Spark",
+      "color": "#808080"
+    },
+    {
+      "id": "d0b762e2-9ad7-4c8f-88d0-df06583cee15",
+      "type": "default",
+      "selected": true,
+      "x": 884.0446799112483,
+      "y": 2617.2479440746874,
+      "extras": {},
+      "ports": [
+        {
+          "id": "5a50b0a4-58f4-4288-b7c2-2ae2789ab794",
+          "type": "default",
+          "selected": false,
+          "name": "f7788081-9d4d-4e39-85d9-4d476f933ec2",
+          "parentNode": "d0b762e2-9ad7-4c8f-88d0-df06583cee15",
+          "links": ["7c781f14-e8ad-4c3e-9e45-64c3774ee70d"],
+          "in": true,
+          "label": "In"
+        },
+        {
+          "id": "13e72087-03fe-4578-8f1c-6d3ca22d91a3",
+          "type": "default",
+          "selected": false,
+          "name": "c08fe979-08aa-4750-ba41-698087d6fb82",
+          "parentNode": "d0b762e2-9ad7-4c8f-88d0-df06583cee15",
+          "links": ["a9e0febf-6b9b-4de6-b9aa-1b9ba2caf548"],
+          "in": false,
+          "label": "Yes"
+        },
+        {
+          "id": "1e4b0cd1-e96b-4afc-8ea2-50909a96d61d",
+          "type": "default",
+          "selected": false,
+          "name": "5cc5535d-fc1e-4143-b2c9-69d19f4cdd75",
+          "parentNode": "d0b762e2-9ad7-4c8f-88d0-df06583cee15",
+          "links": ["571cf69d-9f4a-4f00-99da-979631960178"],
+          "in": false,
+          "label": "No"
+        }
+      ],
+      "name": "Do you prefer to use a fully managed machine learning service?",
+      "color": "#00bfff"
+    },
+    {
+      "id": "8bf68f45-9689-455e-bbbe-98698b449b08",
+      "type": "default",
+      "selected": true,
+      "x": 1208.9803847786493,
+      "y": 2547.601028799854,
+      "extras": {},
+      "ports": [
+        {
+          "id": "6088ece4-a7e0-4153-a978-0c91a0799e21",
+          "type": "default",
+          "selected": false,
+          "name": "96313472-14a1-440b-bcd3-bb388c62a340",
+          "parentNode": "8bf68f45-9689-455e-bbbe-98698b449b08",
+          "links": ["a9e0febf-6b9b-4de6-b9aa-1b9ba2caf548"],
+          "in": true,
+          "label": "In"
+        }
+      ],
+      "name": "Amazon SageMaker",
+      "color": "#808080"
+    },
+    {
+      "id": "d2b9fc8a-a8fb-4ae3-8347-9421290bf778",
+      "type": "default",
+      "selected": true,
+      "x": 1200.6704218530444,
+      "y": 2674.196376595627,
+      "extras": {},
+      "ports": [
+        {
+          "id": "8516fe91-5df5-4e8d-9ba1-c9def76d5c90",
+          "type": "default",
+          "selected": false,
+          "name": "ee3b085c-4712-4148-8c10-92daee9eebe5",
+          "parentNode": "d2b9fc8a-a8fb-4ae3-8347-9421290bf778",
+          "links": ["571cf69d-9f4a-4f00-99da-979631960178"],
+          "in": true,
+          "label": "In"
+        },
+        {
+          "id": "c551ae96-a526-40e3-a2de-221608a60c28",
+          "type": "default",
+          "selected": false,
+          "name": "6db3d6b7-6bdd-4309-b63f-ea71b000c65f",
+          "parentNode": "d2b9fc8a-a8fb-4ae3-8347-9421290bf778",
+          "links": ["a00bc933-54f1-4e39-8dde-27bed542b4c5"],
+          "in": false,
+          "label": "Yes"
+        },
+        {
+          "id": "ff3d4520-c6f0-4bc4-87af-f4168e54c07a",
+          "type": "default",
+          "selected": false,
+          "name": "9c897895-9e92-4dd5-95e5-029e7ae167e5",
+          "parentNode": "d2b9fc8a-a8fb-4ae3-8347-9421290bf778",
+          "links": ["87ce2f29-f1c7-4ce8-85d5-aaf4e0ee7301"],
+          "in": false,
+          "label": "No"
+        }
+      ],
+      "name": "Do you prefer to use a fully managed Spark service?",
+      "color": "#00bfff"
+    },
+    {
+      "id": "bcad6634-dae6-413a-b18c-1000bd484168",
+      "type": "default",
+      "selected": true,
+      "x": 1501.7598019191644,
+      "y": 2594.439822442235,
+      "extras": {},
+      "ports": [
+        {
+          "id": "0956c91c-4287-4509-8bcb-6a853c91e44b",
+          "type": "default",
+          "selected": false,
+          "name": "b110bad4-72cf-4901-9016-ca212076c50a",
+          "parentNode": "bcad6634-dae6-413a-b18c-1000bd484168",
+          "links": ["a00bc933-54f1-4e39-8dde-27bed542b4c5"],
+          "in": true,
+          "label": "In"
+        }
+      ],
+      "name": "AWS Glue w/ Spark ML",
+      "color": "#808080"
+    },
+    {
+      "id": "15393c6f-f49b-426e-84d0-b4f8e9d24019",
+      "type": "default",
+      "selected": true,
+      "x": 1507.8089826015064,
+      "y": 2730.460880731441,
+      "extras": {},
+      "ports": [
+        {
+          "id": "1d7382cc-8b27-42e1-abec-785499ca4bda",
+          "type": "default",
+          "selected": false,
+          "name": "1cc9947e-886e-49a3-8edd-3a2e204d0d13",
+          "parentNode": "15393c6f-f49b-426e-84d0-b4f8e9d24019",
+          "links": ["87ce2f29-f1c7-4ce8-85d5-aaf4e0ee7301"],
+          "in": true,
+          "label": "In"
+        },
+        {
+          "id": "e917793b-68ea-40e7-81cf-94015c448be5",
+          "type": "default",
+          "selected": false,
+          "name": "1d9ad411-78ea-49fa-a42a-ad9b1b413a47",
+          "parentNode": "15393c6f-f49b-426e-84d0-b4f8e9d24019",
+          "links": ["7e36e4a3-c03a-4ecf-a8a3-9328c805162c"],
+          "in": false,
+          "label": "Yes"
+        },
+        {
+          "id": "71067a3e-c45f-4388-8276-8718e81acd42",
+          "type": "default",
+          "selected": false,
+          "name": "49fcd587-a079-4757-8447-def2280f3254",
+          "parentNode": "15393c6f-f49b-426e-84d0-b4f8e9d24019",
+          "links": ["b8752fd8-3169-4a4c-92f0-162871ba5031"],
+          "in": false,
+          "label": "No"
+        }
+      ],
+      "name": "Is your workload variable and sporadic?",
+      "color": "#00bfff"
+    },
+    {
+      "id": "1a0ad75e-faca-491a-a069-07554b05bc00",
+      "type": "default",
+      "selected": true,
+      "x": 1816.4192127337822,
+      "y": 2672.477277894047,
+      "extras": {},
+      "ports": [
+        {
+          "id": "bf3c5f98-97af-4841-ba87-646aa9631792",
+          "type": "default",
+          "selected": false,
+          "name": "a2bc0dea-4084-4253-b15c-0d7c00314545",
+          "parentNode": "1a0ad75e-faca-491a-a069-07554b05bc00",
+          "links": ["7e36e4a3-c03a-4ecf-a8a3-9328c805162c"],
+          "in": true,
+          "label": "In"
+        }
+      ],
+      "name": "Amazon EMR Serverless w/ Spark ML",
+      "color": "#808080"
+    },
+    {
+      "id": "85f78575-f3d9-4d23-9927-51b9e4caa054",
+      "type": "default",
+      "selected": true,
+      "x": 1815.2323516295826,
+      "y": 2810.422350808122,
+      "extras": {},
+      "ports": [
+        {
+          "id": "b330bb24-83f0-4db1-b8f6-ba4f2e08c37a",
+          "type": "default",
+          "selected": false,
+          "name": "a2bc0dea-4084-4253-b15c-0d7c00314545",
+          "parentNode": "85f78575-f3d9-4d23-9927-51b9e4caa054",
+          "links": ["b8752fd8-3169-4a4c-92f0-162871ba5031"],
+          "in": true,
+          "label": "In"
+        }
+      ],
+      "name": "Amazon EMR w/ Spark ML",
+      "color": "#808080"
+    },
+    {
+      "id": "5b55dc0f-ce63-4626-a6ec-2fbc53e8eb26",
+      "type": "default",
+      "selected": true,
+      "x": 861.6703212744534,
+      "y": 3075.055790984193,
+      "extras": {},
+      "ports": [
+        {
+          "id": "a46e6a11-53f9-4605-8684-bec433250d5c",
+          "type": "default",
+          "selected": false,
+          "name": "68ebca52-c2a5-4a4c-8c1f-7fc7784f8c29",
+          "parentNode": "5b55dc0f-ce63-4626-a6ec-2fbc53e8eb26",
+          "links": ["612bbedd-fcd1-41dd-84a8-9329707d9892"],
+          "in": true,
+          "label": "In"
+        },
+        {
+          "id": "d0213e55-2d45-4f8a-86ae-ab0cb05c9a93",
+          "type": "default",
+          "selected": false,
+          "name": "2bea2353-5c37-4ec3-9d34-ae24989b3af9",
+          "parentNode": "5b55dc0f-ce63-4626-a6ec-2fbc53e8eb26",
+          "links": ["92de26c9-b96d-474d-a320-24bcafc0cc3d"],
+          "in": false,
+          "label": "Yes"
+        },
+        {
+          "id": "5417c784-5c31-4bea-86ef-4ae86350f510",
+          "type": "default",
+          "selected": false,
+          "name": "bcfe232c-2f1b-4302-a612-ba3393b87169",
+          "parentNode": "5b55dc0f-ce63-4626-a6ec-2fbc53e8eb26",
+          "links": ["06830c14-5b1f-480f-a49a-5b6cdd4d9f87"],
+          "in": false,
+          "label": "No"
+        }
+      ],
+      "name": "Do you require edge computing?",
+      "color": "#00bfff"
+    },
+    {
+      "id": "7d0d5eee-410b-4a60-9cb3-940d7a889e36",
+      "type": "default",
+      "selected": true,
+      "x": 1202.1984940710547,
+      "y": 2917.4886007809173,
+      "extras": {},
+      "ports": [
+        {
+          "id": "4bec77b0-ba20-42dc-8899-b22e517118d8",
+          "type": "default",
+          "selected": false,
+          "name": "30d40331-bd40-4654-9d39-4389ec77e060",
+          "parentNode": "7d0d5eee-410b-4a60-9cb3-940d7a889e36",
+          "links": ["92de26c9-b96d-474d-a320-24bcafc0cc3d"],
+          "in": true,
+          "label": "In"
+        },
+        {
+          "id": "c13d3f8c-a820-418a-95b0-8e92fd632bf0",
+          "type": "default",
+          "selected": false,
+          "name": "689c36cd-d031-4bf2-9501-30ecf9a8b72c",
+          "parentNode": "7d0d5eee-410b-4a60-9cb3-940d7a889e36",
+          "links": ["c1060268-39e2-474f-ad64-eb87b080dc66"],
+          "in": false,
+          "label": "Yes"
+        },
+        {
+          "id": "6c91bf5b-0715-4b53-8ecc-b6f04fb8c6ce",
+          "type": "default",
+          "selected": false,
+          "name": "203a371e-978d-440f-b53c-715b93cee379",
+          "parentNode": "7d0d5eee-410b-4a60-9cb3-940d7a889e36",
+          "links": ["1990634f-961f-4517-b4ba-0c6182238258"],
+          "in": false,
+          "label": "No"
+        }
+      ],
+      "name": "Is your workload dealing with computer vision?",
+      "color": "#00bfff"
+    },
+    {
+      "id": "9ef502a1-b2ae-4d08-9399-0fc26ac41360",
+      "type": "default",
+      "selected": true,
+      "x": 1529.12400622726,
+      "y": 2872.295224413405,
+      "extras": {},
+      "ports": [
+        {
+          "id": "de6e0895-48de-4bef-9301-a274554418e9",
+          "type": "default",
+          "selected": false,
+          "name": "b9441a90-78d1-46e0-a3ab-a4e599de2995",
+          "parentNode": "9ef502a1-b2ae-4d08-9399-0fc26ac41360",
+          "links": ["c1060268-39e2-474f-ad64-eb87b080dc66"],
+          "in": true,
+          "label": "In"
+        }
+      ],
+      "name": "AWS Panorama",
+      "color": "#808080"
+    },
+    {
+      "id": "8298d263-687e-4af3-ba37-2f3acdc4e401",
+      "type": "default",
+      "selected": true,
+      "x": 1531.0724093156578,
+      "y": 2991.7880984990834,
+      "extras": {},
+      "ports": [
+        {
+          "id": "fbe4b654-1dad-4479-92e4-981a81312967",
+          "type": "default",
+          "selected": false,
+          "name": "b7af13d2-d8db-4ffe-8740-d51efcd6ce86",
+          "parentNode": "8298d263-687e-4af3-ba37-2f3acdc4e401",
+          "links": ["1990634f-961f-4517-b4ba-0c6182238258"],
+          "in": true,
+          "label": "In"
+        }
+      ],
+      "name": "AWS IoT Greengrass V2 w/ Amazon SageMaker Edge Manager",
+      "color": "#808080"
+    },
+    {
+      "id": "6e1903f0-2871-4f99-a2f7-e28c3dec8c7f",
+      "type": "default",
+      "selected": true,
+      "x": 1185.3731719057948,
+      "y": 3305.487060363972,
+      "extras": {},
+      "ports": [
+        {
+          "id": "aa0bbf11-4022-4c7a-8bcc-8b1b116762d2",
+          "type": "default",
+          "selected": false,
+          "name": "604ef06d-82e9-4472-b420-0fae27fed14c",
+          "parentNode": "6e1903f0-2871-4f99-a2f7-e28c3dec8c7f",
+          "links": ["06830c14-5b1f-480f-a49a-5b6cdd4d9f87"],
+          "in": true,
+          "label": "In"
+        },
+        {
+          "id": "9e4bc21c-89e4-4d4f-8a46-12c22dd636cb",
+          "type": "default",
+          "selected": false,
+          "name": "6741141b-ef69-4c89-be7b-ae54879d76f4",
+          "parentNode": "6e1903f0-2871-4f99-a2f7-e28c3dec8c7f",
+          "links": ["35a80153-f8ee-4bd9-9b3d-8ca9abd6e6ed"],
+          "in": false,
+          "label": "Yes"
+        },
+        {
+          "id": "b2f227d6-fc1b-455c-9685-9e167a659085",
+          "type": "default",
+          "selected": false,
+          "name": "d879531c-91a3-4831-82f6-87989202b030",
+          "parentNode": "6e1903f0-2871-4f99-a2f7-e28c3dec8c7f",
+          "links": ["ea71e603-6537-45c4-98a3-1b47c8c6bb52"],
+          "in": false,
+          "label": "No"
+        }
+      ],
+      "name": "Is this an ad-hoc or experimental workload?",
+      "color": "#00bfff"
+    },
+    {
+      "id": "b169cecf-c310-47e7-a8c8-71122fc2da19",
+      "type": "default",
+      "selected": true,
+      "x": 1519.9260071516785,
+      "y": 3171.1215042929375,
+      "extras": {},
+      "ports": [
+        {
+          "id": "fd0f5e01-7b97-4fb2-a74b-a4b0ca608039",
+          "type": "default",
+          "selected": false,
+          "name": "7012e172-0173-467b-854b-af207e91186f",
+          "parentNode": "b169cecf-c310-47e7-a8c8-71122fc2da19",
+          "links": ["35a80153-f8ee-4bd9-9b3d-8ca9abd6e6ed"],
+          "in": true,
+          "label": "In"
+        }
+      ],
+      "name": "Amazon SageMaker Notebook Instances",
+      "color": "#808080"
+    },
+    {
+      "id": "4a44ed27-08b3-4399-a16a-00922775a229",
+      "type": "default",
+      "selected": true,
+      "x": 1517.3750125908568,
+      "y": 3346.5783246366873,
+      "extras": {},
+      "ports": [
+        {
+          "id": "6e4d91b8-3a39-4428-b100-8bfa8195b885",
+          "type": "default",
+          "selected": false,
+          "name": "9f607e74-76b1-4e83-b658-2a50029ea6c6",
+          "parentNode": "4a44ed27-08b3-4399-a16a-00922775a229",
+          "links": ["ea71e603-6537-45c4-98a3-1b47c8c6bb52"],
+          "in": true,
+          "label": "In"
+        },
+        {
+          "id": "de64451c-770d-43c8-933b-3374fb181cad",
+          "type": "default",
+          "selected": false,
+          "name": "575715eb-1fb5-45ab-880a-7f57b38b8e09",
+          "parentNode": "4a44ed27-08b3-4399-a16a-00922775a229",
+          "links": ["0c371b90-b1ca-4bf2-b39f-d601b362aad6"],
+          "in": false,
+          "label": "Yes"
+        },
+        {
+          "id": "673dbd45-76ea-4223-ab79-4a309bedc4a2",
+          "type": "default",
+          "selected": false,
+          "name": "b56e776d-415c-4353-8e2c-291b4f3c733d",
+          "parentNode": "4a44ed27-08b3-4399-a16a-00922775a229",
+          "links": ["d2f451df-9dbe-4561-b9f8-410270ed96d3"],
+          "in": false,
+          "label": "No"
+        }
+      ],
+      "name": "Is your workload compatible with containers?",
+      "color": "#00bfff"
+    },
+    {
+      "id": "8e08fde4-0b92-418f-b165-410104bbcce1",
+      "type": "default",
+      "selected": true,
+      "x": 1848.29245657858,
+      "y": 3430.158810890707,
+      "extras": {},
+      "ports": [
+        {
+          "id": "eb583c2b-4b9e-483e-af65-5451d4d3f193",
+          "type": "default",
+          "selected": false,
+          "name": "424c8431-9471-4812-bdc3-096300134423",
+          "parentNode": "8e08fde4-0b92-418f-b165-410104bbcce1",
+          "links": ["d2f451df-9dbe-4561-b9f8-410270ed96d3"],
+          "in": true,
+          "label": "In"
+        }
+      ],
+      "name": "Amazon EC2 w/ AWS Deep Learning AMIs",
+      "color": "#808080"
+    },
+    {
+      "id": "da0ad224-621f-4da4-b23e-f47e4ffca230",
+      "type": "default",
+      "selected": true,
+      "x": 1843.3271575212066,
+      "y": 3266.9067881178107,
+      "extras": {},
+      "ports": [
+        {
+          "id": "f3b74944-0103-4af0-8d31-f28e675b473f",
+          "type": "default",
+          "selected": false,
+          "name": "6ba16661-c137-4317-9da3-981ef032172e",
+          "parentNode": "da0ad224-621f-4da4-b23e-f47e4ffca230",
+          "links": ["0c371b90-b1ca-4bf2-b39f-d601b362aad6"],
+          "in": true,
+          "label": "In"
+        },
+        {
+          "id": "9faf8ba4-da62-41fd-9014-add80e78887d",
+          "type": "default",
+          "selected": false,
+          "name": "352ecd53-e3d8-4295-9cc7-472ed133223b",
+          "parentNode": "da0ad224-621f-4da4-b23e-f47e4ffca230",
+          "links": ["4399e28f-f84f-4a09-90b6-d8946d329f4d"],
+          "in": false,
+          "label": "Yes"
+        },
+        {
+          "id": "cba84071-309a-4090-8ade-7e69bf426cf8",
+          "type": "default",
+          "selected": false,
+          "name": "119376c7-88e8-43d2-8607-7972a35529bf",
+          "parentNode": "da0ad224-621f-4da4-b23e-f47e4ffca230",
+          "links": ["4c8462a7-d21b-4278-ab4c-b5e1b2e11fd6"],
+          "in": false,
+          "label": "No"
+        }
+      ],
+      "name": "Do you prefer Kubernetes?",
+      "color": "#00bfff"
+    },
+    {
+      "id": "8dadfe96-7968-486c-a6de-1fa24d580e91",
+      "type": "default",
+      "selected": true,
+      "x": 2156.2359217617836,
+      "y": 3181.932115680804,
+      "extras": {},
+      "ports": [
+        {
+          "id": "c10997ec-e80a-4bcb-95bd-ff6d19f35174",
+          "type": "default",
+          "selected": false,
+          "name": "e4182d36-245a-463d-97c9-7e6201d4f70f",
+          "parentNode": "8dadfe96-7968-486c-a6de-1fa24d580e91",
+          "links": ["4399e28f-f84f-4a09-90b6-d8946d329f4d"],
+          "in": true,
+          "label": "In"
+        }
+      ],
+      "name": "Amazon Elastic Kubernetes Service w/ AWS Deep Learning Containers",
+      "color": "#808080"
+    },
+    {
+      "id": "24244c1b-942e-4266-aeec-7887b7ded052",
+      "type": "default",
+      "selected": true,
+      "x": 2157.2272270399126,
+      "y": 3373.8865432237635,
+      "extras": {},
+      "ports": [
+        {
+          "id": "dca3b23c-777c-46b7-8bdb-18c1bc46a5fc",
+          "type": "default",
+          "selected": false,
+          "name": "c330ebaf-6bde-4fe4-bb1a-222dcc8f818d",
+          "parentNode": "24244c1b-942e-4266-aeec-7887b7ded052",
+          "links": ["4c8462a7-d21b-4278-ab4c-b5e1b2e11fd6"],
+          "in": true,
+          "label": "In"
+        }
+      ],
+      "name": "Amazon Elastic Container Service w/ AWS Deep Learning Containers",
+      "color": "#808080"
+    }
+  ],
+  "copiedLinks": [
+    {
+      "id": "3e2dc3d2-18f0-4e0b-b11b-672eed2fc110",
+      "type": "default",
+      "selected": true,
+      "source": "34f9e397-0601-4894-a706-86431f476b6f",
+      "sourcePort": "59170cad-36be-4b6d-bf93-53b43ec450e8",
+      "target": "7c42b369-6f76-4b08-8512-489a02dd2b05",
+      "targetPort": "604f28aa-e33b-4233-88bb-18fe753d784e",
+      "points": [
+        {
+          "id": "923ccfb5-3ef2-487f-961b-73a3d251b58e",
+          "selected": true,
+          "x": 57.73438604216503,
+          "y": 2056.3594121196866
+        },
+        {
+          "id": "51680530-00aa-4090-8b40-1adc356491f1",
+          "selected": true,
+          "x": 464.76561999276953,
+          "y": 782.4375310461963
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "fc0d0385-1863-4c71-ad82-6e611bbde128",
+      "type": "default",
+      "selected": true,
+      "source": "7c42b369-6f76-4b08-8512-489a02dd2b05",
+      "sourcePort": "d5c6cba3-cca7-415c-bde4-2d7e3ac5e293",
+      "target": "1c611d93-489b-49b0-9b16-6043d61e4c1a",
+      "targetPort": "14076e2f-3e9e-45b0-9fb2-569ffb5e9fc1",
+      "points": [
+        {
+          "id": "2084493a-e323-47dd-86fc-88e002251fcf",
+          "selected": true,
+          "x": 684.4219269971833,
+          "y": 760.937510098578
+        },
+        {
+          "id": "82bb1895-9c43-46d3-8f67-8711f1f58250",
+          "selected": true,
+          "x": 718.8125462168739,
+          "y": 512.0000234536966
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "c90596f1-f6cd-4815-bc29-b8104c04632d",
+      "type": "default",
+      "selected": true,
+      "source": "1c611d93-489b-49b0-9b16-6043d61e4c1a",
+      "sourcePort": "968fe4df-e915-4b48-9571-dc49b7b82a45",
+      "target": "7d383205-f27b-4c49-a941-2f21f383b8e5",
+      "targetPort": "a988da4d-5fa1-48dd-8712-8e430320c618",
+      "points": [
+        {
+          "id": "5fbedcd7-28c9-4152-abad-cfac7b95ba59",
+          "selected": true,
+          "x": 938.4687561666846,
+          "y": 488.4999983003787
+        },
+        {
+          "id": "6c6de2a9-cc7b-4312-889f-e9392460f953",
+          "selected": true,
+          "x": 1010.8594552946648,
+          "y": 354.4062529357475
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "a5d97c31-fc74-4323-8338-478b787c4265",
+      "type": "default",
+      "selected": true,
+      "source": "7d383205-f27b-4c49-a941-2f21f383b8e5",
+      "sourcePort": "13bc986e-0f5a-4405-9f5b-a9d650f9af05",
+      "target": "f3f7ce40-f675-4655-a7ad-48e415024da1",
+      "targetPort": "f3e03e0c-c381-4921-b73d-ae4cfcbfce5e",
+      "points": [
+        {
+          "id": "7edbfd79-f32c-428f-9c8b-fce3136090ad",
+          "selected": true,
+          "x": 1230.5155681898723,
+          "y": 319.9062531783841
+        },
+        {
+          "id": "7321e6ac-fa02-4cb0-bc6f-7cca69cb45ec",
+          "selected": true,
+          "x": 1322.8280833647636,
+          "y": 286.265671931307
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "d4fd246b-1d9e-441e-bf3e-ee7cc6560dca",
+      "type": "default",
+      "selected": true,
+      "source": "7d383205-f27b-4c49-a941-2f21f383b8e5",
+      "sourcePort": "5396e90f-d90b-41e6-90b2-636de0bd28ee",
+      "target": "3ff79976-abf9-43c3-9758-f9fa570dc946",
+      "targetPort": "a9beea18-96b9-46b1-b496-ff4939aae9ce",
+      "points": [
+        {
+          "id": "b7ec1db2-6baa-4b1f-8e45-f076375ae6da",
+          "selected": true,
+          "x": 1230.5155681898723,
+          "y": 362.9062950736209
+        },
+        {
+          "id": "a1d265a5-e3a5-452d-b78d-9b3beaf02e4b",
+          "selected": true,
+          "x": 1319.8751000114073,
+          "y": 407.6407027259233
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "f4c57148-c5c9-4d37-9c87-8ca23446b3a2",
+      "type": "default",
+      "selected": true,
+      "source": "3ff79976-abf9-43c3-9758-f9fa570dc946",
+      "sourcePort": "0bfba4d1-b0e4-4c6a-9707-fe0fd84cfb62",
+      "target": "295c043d-7e76-4161-82a2-ad239fce7d56",
+      "targetPort": "d1c8ba1b-cef9-4cf8-9178-44db7f1c77c2",
+      "points": [
+        {
+          "id": "22ecf8ee-4ff3-4392-8690-16f1fc0514f5",
+          "selected": true,
+          "x": 1539.5312129066149,
+          "y": 416.1406478091937
+        },
+        {
+          "id": "060b4145-5c15-489d-b90d-3ac2ebea7d76",
+          "selected": true,
+          "x": 1679.671848261633,
+          "y": 494.10936614007426
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "a2ce2712-7088-4298-8123-870209611246",
+      "type": "default",
+      "selected": true,
+      "source": "3ff79976-abf9-43c3-9758-f9fa570dc946",
+      "sourcePort": "5969a6d0-750c-4654-b147-6c7d7c8bd77b",
+      "target": "29482b63-23d6-4bb3-b88a-3a49ca6f041f",
+      "targetPort": "5371ead3-d356-4bd1-937a-ce760bea06d1",
+      "points": [
+        {
+          "id": "ebf533fb-8716-44bf-82ae-ed75d2d221b3",
+          "selected": true,
+          "x": 1539.5312129066149,
+          "y": 373.14070296855994
+        },
+        {
+          "id": "c7544ca6-ce7f-4a3a-b483-726ce091b1ad",
+          "selected": true,
+          "x": 1680.4688606621378,
+          "y": 352.8437708807392
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "a6806ffb-41f0-4032-b06f-dbd2d3a661eb",
+      "type": "default",
+      "selected": true,
+      "source": "295c043d-7e76-4161-82a2-ad239fce7d56",
+      "sourcePort": "958880a5-6b66-4aed-958d-e476964db5e9",
+      "target": "3f602668-267e-4f4d-978d-8ee7d0aefe6b",
+      "targetPort": "cadfeeaa-c0c8-4abb-8956-26fda4dd6099",
+      "points": [
+        {
+          "id": "18843614-f359-4bb4-a008-c4fb8087f232",
+          "selected": true,
+          "x": 1899.3281552660467,
+          "y": 470.60943804135945
+        },
+        {
+          "id": "3f2343ee-9c6d-4bba-84e8-68302d74f9af",
+          "selected": true,
+          "x": 1971.3750869899125,
+          "y": 409.48444902066166
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "ecd864e0-0196-4543-ae83-b1761650f9db",
+      "type": "default",
+      "selected": true,
+      "source": "295c043d-7e76-4161-82a2-ad239fce7d56",
+      "sourcePort": "a6fc8938-5c64-4289-b74a-3124b796e1c3",
+      "target": "2ca47610-4d19-4297-b1f0-7564c6297986",
+      "targetPort": "8cb5c6ff-e674-471a-9aa3-022c9af537fa",
+      "points": [
+        {
+          "id": "c328fc69-eadf-4683-b6c7-0e576bdb6714",
+          "selected": true,
+          "x": 1899.3281552660467,
+          "y": 513.6093828819933
+        },
+        {
+          "id": "b1d362b3-dc2d-429a-80f4-c32e526b2052",
+          "selected": true,
+          "x": 1974.4530766720377,
+          "y": 547.9843763105877
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "4fc1c25e-fcca-41d1-9b21-7ff3a14b0591",
+      "type": "default",
+      "selected": true,
+      "source": "1c611d93-489b-49b0-9b16-6043d61e4c1a",
+      "sourcePort": "62a0eaa8-3b6d-4070-85a8-c3502a6fe436",
+      "target": "22353144-96f8-4b94-8ded-72c49d60c4a0",
+      "targetPort": "832ce5bb-6e4f-40d3-97b4-1d44df9246fa",
+      "points": [
+        {
+          "id": "ec5cc7e9-ef28-41f0-9106-aa802f0707d7",
+          "selected": true,
+          "x": 938.4687561666846,
+          "y": 531.5000401956155
+        },
+        {
+          "id": "6c5d33ed-a31c-4aa2-8fc2-8eae428cb874",
+          "selected": true,
+          "x": 1030.8593032424533,
+          "y": 619.5937858837623
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "2fd27fe5-da4a-4c3a-b06d-9d4ff34adc41",
+      "type": "default",
+      "selected": true,
+      "source": "22353144-96f8-4b94-8ded-72c49d60c4a0",
+      "sourcePort": "fcd1cc6f-09f9-4960-8afa-6b83e5c29340",
+      "target": "85e58736-48a4-468d-a6e7-9aaeac5aab49",
+      "targetPort": "c91fcef4-ee2e-4ee0-8e1b-b2182f55a071",
+      "points": [
+        {
+          "id": "c0fac58a-a8e9-4b9a-9e68-ae022d2ce20b",
+          "selected": true,
+          "x": 1250.515610246867,
+          "y": 596.0937607304444
+        },
+        {
+          "id": "b88d30fd-ccec-4293-a1c7-8084e01b43a2",
+          "selected": true,
+          "x": 1326.9843496871238,
+          "y": 550.2500189649211
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "a92abc0d-5d9a-4134-820d-be47a81edec0",
+      "type": "default",
+      "selected": true,
+      "source": "22353144-96f8-4b94-8ded-72c49d60c4a0",
+      "sourcePort": "32f1083e-c7b3-44eb-a1de-6e4d803625cf",
+      "target": "ee0c982f-6c76-440a-86f6-159e09455d2e",
+      "targetPort": "ec7afa93-a065-468f-8582-57eedc65ee40",
+      "points": [
+        {
+          "id": "ee643225-5f1f-492e-987e-d0aa9909ede5",
+          "selected": true,
+          "x": 1250.515610246867,
+          "y": 639.0938026256813
+        },
+        {
+          "id": "6a17c838-7550-4342-8394-10625328d16a",
+          "selected": true,
+          "x": 1332.7031951190952,
+          "y": 678.4687580412228
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "d79b717f-5435-42db-81a3-a181050daff5",
+      "type": "default",
+      "selected": true,
+      "source": "ee0c982f-6c76-440a-86f6-159e09455d2e",
+      "sourcePort": "5babaf9e-38ee-49d7-af0e-af927a6ecf2e",
+      "target": "7f924c5e-b881-4de2-b043-8536edf31851",
+      "targetPort": "07e9590c-387e-4ef7-867c-c17e0264e71a",
+      "points": [
+        {
+          "id": "be8b8b4e-fb76-45cc-8ad8-a48e83e3594c",
+          "selected": true,
+          "x": 1552.3593080143028,
+          "y": 654.968829942508
+        },
+        {
+          "id": "a42cc357-4747-4b19-92a2-70d3b96806e0",
+          "selected": true,
+          "x": 1656.4843389302373,
+          "y": 680.7500264866524
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "8d238877-6629-4a74-aae9-afcebaa88984",
+      "type": "default",
+      "selected": true,
+      "source": "7f924c5e-b881-4de2-b043-8536edf31851",
+      "sourcePort": "f32f13d8-f236-4cd2-a884-ff360f07e668",
+      "target": "548805d8-d71b-41c5-b0ea-8fc5fe743d96",
+      "targetPort": "f1c25aa7-c465-4aee-b843-4ba9c8ab400f",
+      "points": [
+        {
+          "id": "828cc901-292d-496e-bf2a-da0b45c06704",
+          "selected": true,
+          "x": 1876.140645934651,
+          "y": 657.2500013333345
+        },
+        {
+          "id": "4ea70243-ab00-48ec-9b28-37fca9de8c9f",
+          "selected": true,
+          "x": 1967.0938143387834,
+          "y": 652.3281683018679
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "c2fb1e6e-b893-4dbd-b598-b378d87221c4",
+      "type": "default",
+      "selected": true,
+      "source": "7f924c5e-b881-4de2-b043-8536edf31851",
+      "sourcePort": "6e09e53c-e48f-4df4-8046-769b159424f4",
+      "target": "22f4aabb-c770-4b19-b4f0-9fdb398ed973",
+      "targetPort": "86c6c037-e278-4ba6-8ea5-22063c4cf015",
+      "points": [
+        {
+          "id": "78b3c9ba-f11a-4a24-8fb6-7d6c395efdac",
+          "selected": true,
+          "x": 1876.140645934651,
+          "y": 700.2500432285713
+        },
+        {
+          "id": "d352647d-8ddc-4f22-b0d3-04daaa32f431",
+          "selected": true,
+          "x": 1988.74999614276,
+          "y": 772.5000131820834
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "8ffc31a9-2e04-4008-8729-5017c8372c68",
+      "type": "default",
+      "selected": true,
+      "source": "ee0c982f-6c76-440a-86f6-159e09455d2e",
+      "sourcePort": "c5454fc0-2134-45b7-9077-b9d5697e68a4",
+      "target": "a1437c33-decb-45a4-b447-f644be676af8",
+      "targetPort": "dc8e529c-b618-4ff9-a3ad-ccb672592823",
+      "points": [
+        {
+          "id": "1782a6f8-8b21-4ec3-a451-8877fb5d3d6f",
+          "selected": true,
+          "x": 1552.3593080143028,
+          "y": 697.9687747831417
+        },
+        {
+          "id": "7ad9b672-044e-4d47-9309-2746add65555",
+          "selected": true,
+          "x": 1649.3438376723288,
+          "y": 838.781270627991
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "87c300e1-0aeb-44ab-89b2-1b8a6a96b0b2",
+      "type": "default",
+      "selected": true,
+      "source": "a1437c33-decb-45a4-b447-f644be676af8",
+      "sourcePort": "6d7e7032-651c-49fe-8f41-b640b74d3b52",
+      "target": "1f1cdb66-1f31-46f8-a03f-b3a44496a6f8",
+      "targetPort": "0c4dd3be-a79e-45f6-8651-161636f37b64",
+      "points": [
+        {
+          "id": "82cf5007-31c6-41ab-872a-95c410a0def5",
+          "selected": true,
+          "x": 1868.9999505675364,
+          "y": 804.2813193979292
+        },
+        {
+          "id": "59383c10-cdc0-4a3d-a8da-97831b4f4101",
+          "selected": true,
+          "x": 2005.5000677609692,
+          "y": 885.5469340681851
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "5def247b-5f05-4332-8926-8e5af163d599",
+      "type": "default",
+      "selected": true,
+      "source": "a1437c33-decb-45a4-b447-f644be676af8",
+      "sourcePort": "5e7a8224-4c84-426e-9656-4ac9b6db888c",
+      "target": "1ddb755f-961d-40c0-9bde-0e68b0a7c6b7",
+      "targetPort": "febb531c-b8b0-4b23-916d-9c0259a81707",
+      "points": [
+        {
+          "id": "a95e8a66-50dd-4d49-92ec-e09e188ba1e6",
+          "selected": true,
+          "x": 1868.9999505675364,
+          "y": 847.281264238563
+        },
+        {
+          "id": "9082e096-7080-483a-81c3-9a84ac6d5bdb",
+          "selected": true,
+          "x": 1933.7969034412179,
+          "y": 1024.2812967518544
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "7cae80fc-553f-4d6c-bb32-84d5b3289837",
+      "type": "default",
+      "selected": true,
+      "source": "1ddb755f-961d-40c0-9bde-0e68b0a7c6b7",
+      "sourcePort": "0b1e195a-b8b6-48db-ae2e-63f6fee6b821",
+      "target": "0e8f8140-627b-4a3c-8f4b-a262602af066",
+      "targetPort": "c4395a3e-77ba-4c06-a719-ea20d314bf87",
+      "points": [
+        {
+          "id": "401ae493-ec9c-472f-bbbf-09f83cc45d94",
+          "selected": true,
+          "x": 2153.4532104456316,
+          "y": 1000.7812715985365
+        },
+        {
+          "id": "8277a552-1a6a-4ea2-af04-88ec69644431",
+          "selected": true,
+          "x": 2249.109450805885,
+          "y": 952.0625298532328
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "c8c412fd-d943-4698-b3f9-2608ebd88026",
+      "type": "default",
+      "selected": true,
+      "source": "1ddb755f-961d-40c0-9bde-0e68b0a7c6b7",
+      "sourcePort": "6486e28b-673f-4819-927f-eb9b3fac4c30",
+      "target": "5732ab0b-e6a4-44dc-847a-7e9804c6446f",
+      "targetPort": "3d85dd82-ff39-49ec-94b0-d73224310122",
+      "points": [
+        {
+          "id": "17b0aa5e-fd36-441b-aa66-85709aecd62c",
+          "selected": true,
+          "x": 2153.4532104456316,
+          "y": 1043.7812649664718
+        },
+        {
+          "id": "1d04656f-7364-4181-9c2a-ca2463d9640d",
+          "selected": true,
+          "x": 2270.0938206473315,
+          "y": 1070.781273216113
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "7ca3b926-e740-409e-8ca0-136eb08a7725",
+      "type": "default",
+      "selected": true,
+      "source": "34f9e397-0601-4894-a706-86431f476b6f",
+      "sourcePort": "fdedf886-db16-4642-a1d7-51f6823efa7b",
+      "target": "d5a14260-bd0d-491e-a197-7f06eb986cb0",
+      "targetPort": "0c8ffe6a-96c2-4e86-a30c-0afd6b7a3ce9",
+      "points": [
+        {
+          "id": "55792873-74b5-420d-bf97-c6039063f6df",
+          "selected": true,
+          "x": 57.73438604216503,
+          "y": 2099.359405487622
+        },
+        {
+          "id": "3ecdd8ee-524a-48ea-88f3-aefd10309188",
+          "selected": true,
+          "x": 533.453103685574,
+          "y": 2121.531286925072
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "bbad8070-a744-492f-9a5a-e7f4f890c4f7",
+      "type": "default",
+      "selected": true,
+      "source": "d5a14260-bd0d-491e-a197-7f06eb986cb0",
+      "sourcePort": "a3857fe2-57f7-4ae7-b8a2-16afcac9af2c",
+      "target": "8bc03e97-e972-4688-824a-6449996b7e36",
+      "targetPort": "4d69a2fb-27ed-40ae-abde-9e0adf1f7e6c",
+      "points": [
+        {
+          "id": "dafa1a63-48e1-446d-8dbf-e93385968dfa",
+          "selected": true,
+          "x": 753.1094106899877,
+          "y": 2100.0312659774536
+        },
+        {
+          "id": "d1d7ca1d-3a1b-4aa7-af04-843cdd7196f4",
+          "selected": true,
+          "x": 838.5781205285905,
+          "y": 2034.7031817884088
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "069b16eb-7dfe-4879-b5b6-bddd238c59e7",
+      "type": "default",
+      "selected": true,
+      "source": "8bc03e97-e972-4688-824a-6449996b7e36",
+      "sourcePort": "ba2689ad-a1df-4d07-a895-e413a8385ccb",
+      "target": "4e78acb8-5f94-4c33-8cec-2e907d0bd759",
+      "targetPort": "48aa810b-29dd-49a6-8695-dc1493e04742",
+      "points": [
+        {
+          "id": "ea381fda-a6ab-48d7-b7d3-bd7745c11dae",
+          "selected": true,
+          "x": 1058.234330478401,
+          "y": 2054.203150003026
+        },
+        {
+          "id": "cd9c203f-e539-4a55-a0ae-8fbd4f840d91",
+          "selected": true,
+          "x": 1128.2501034689783,
+          "y": 2054.015640509873
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "500d8864-7820-402b-bf07-cab5008347ee",
+      "type": "default",
+      "selected": true,
+      "source": "8bc03e97-e972-4688-824a-6449996b7e36",
+      "sourcePort": "ea87f383-05e7-41be-9bb5-a4233a48eb51",
+      "target": "dc279070-6e1d-4554-85b6-c7f864129546",
+      "targetPort": "54529acf-c835-40e6-a3bf-d34e572eb510",
+      "points": [
+        {
+          "id": "c39b678c-b7a9-4250-9a16-da16f9e12fb8",
+          "selected": true,
+          "x": 1058.234330478401,
+          "y": 2011.2031566350909
+        },
+        {
+          "id": "98242816-8ad4-4191-a060-e22b338f7648",
+          "selected": true,
+          "x": 1127.1875496744426,
+          "y": 1946.937529185979
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "89b3e2ad-4ee0-43e0-b131-e6abfbfb53b5",
+      "type": "default",
+      "selected": true,
+      "source": "d5a14260-bd0d-491e-a197-7f06eb986cb0",
+      "sourcePort": "f32f146c-6915-4287-bbdd-0f06934037e6",
+      "target": "af2ec5df-e6bc-4257-82b8-b8b1a571c2da",
+      "targetPort": "306fdcca-735f-4785-a5ef-58675d357b36",
+      "points": [
+        {
+          "id": "451013f2-b413-4de2-8f87-7020707fc895",
+          "selected": true,
+          "x": 753.1094106899877,
+          "y": 2143.0313078726904
+        },
+        {
+          "id": "c486047b-f372-4a89-ae3a-9302abc85e88",
+          "selected": true,
+          "x": 845.01565529638,
+          "y": 2202.1562926876886
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "41fe29c2-cfd6-452d-a636-b228c5467c35",
+      "type": "default",
+      "selected": true,
+      "source": "af2ec5df-e6bc-4257-82b8-b8b1a571c2da",
+      "sourcePort": "18c7a9b3-6180-4038-8787-6e16d4def552",
+      "target": "e3ed16c2-f507-4d1a-836c-872a97d7831c",
+      "targetPort": "5f5b5d68-bfce-45c6-9f27-3d9066c55df1",
+      "points": [
+        {
+          "id": "b5b92baa-527f-4dd0-9add-b5cb5f87eb94",
+          "selected": true,
+          "x": 1064.6719623007937,
+          "y": 2156.6562697989784
+        },
+        {
+          "id": "6b225c80-fae9-4b47-af91-591c9f4eb6b2",
+          "selected": true,
+          "x": 1129.2499599899234,
+          "y": 2161.04692298778
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "41d54a58-65af-4eb0-92fc-2f72e834520a",
+      "type": "default",
+      "selected": true,
+      "source": "af2ec5df-e6bc-4257-82b8-b8b1a571c2da",
+      "sourcePort": "1b783da6-b3b0-437e-ba55-95d53818b565",
+      "target": "1418774f-84cc-41f9-b1ee-4149bc231228",
+      "targetPort": "becde989-eff7-4c7b-bfac-021958a0b855",
+      "points": [
+        {
+          "id": "045a336c-34c7-4d42-aff0-ed0c6a8c08e1",
+          "selected": true,
+          "x": 1064.6719623007937,
+          "y": 2199.6562631669135
+        },
+        {
+          "id": "3e9aa3b2-1ce2-41a6-94c5-fcfd14c9fe0d",
+          "selected": true,
+          "x": 1130.7655646716435,
+          "y": 2282.046886268788
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "dc857e8f-749f-4134-89d3-fbb7d18bf53b",
+      "type": "default",
+      "selected": true,
+      "source": "1418774f-84cc-41f9-b1ee-4149bc231228",
+      "sourcePort": "a0a03577-0629-413d-9ddf-6009bedc4b53",
+      "target": "6483a393-fea5-4fef-b5a4-54063daefb0f",
+      "targetPort": "93f66b99-9d0c-49d7-bdbf-b613287c4bd2",
+      "points": [
+        {
+          "id": "7a6d011e-291e-4d8b-9af4-5717a994925b",
+          "selected": true,
+          "x": 1350.4218716760572,
+          "y": 2301.5468544834052
+        },
+        {
+          "id": "a617d97c-49ff-4bf5-b731-bd5fc9c8df7f",
+          "selected": true,
+          "x": 1419.5156259373605,
+          "y": 2370.3593445049787
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "63cfa7be-6a8e-4f3a-835f-324ef74268ae",
+      "type": "default",
+      "selected": true,
+      "source": "1418774f-84cc-41f9-b1ee-4149bc231228",
+      "sourcePort": "cc20a409-764b-441c-aea9-306c43a4bbec",
+      "target": "b181a7af-63ed-48d4-b74b-93143f8cea48",
+      "targetPort": "c1c89943-15ee-4467-a270-64c772d8987e",
+      "points": [
+        {
+          "id": "4033a555-19eb-4f61-9d4e-179183f44fe3",
+          "selected": true,
+          "x": 1350.4218716760572,
+          "y": 2258.546909642772
+        },
+        {
+          "id": "cf36bc33-893b-4159-a223-c3b4a390e73f",
+          "selected": true,
+          "x": 1410.4062750013418,
+          "y": 2250.093793405488
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "f5c91d52-0da4-4f57-90e9-7ef6022b2c94",
+      "type": "default",
+      "selected": true,
+      "source": "b181a7af-63ed-48d4-b74b-93143f8cea48",
+      "sourcePort": "47974e33-8472-44ad-988f-0b520fe1558f",
+      "target": "6c479040-6b10-4705-b4a8-313a4f5f89c2",
+      "targetPort": "031b67b1-34be-4b5c-b7e8-76c806532f00",
+      "points": [
+        {
+          "id": "f2507a14-d1b5-4518-b13f-f429d7b36e81",
+          "selected": true,
+          "x": 1630.0625820057555,
+          "y": 2228.59377245787
+        },
+        {
+          "id": "79e61248-e9bf-46d6-b319-9c1ead420115",
+          "selected": true,
+          "x": 1717.0937738993664,
+          "y": 2216.9687662099795
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "8804639a-8c9f-4f7e-96ab-a8a2d2c4cf40",
+      "type": "default",
+      "selected": true,
+      "source": "b181a7af-63ed-48d4-b74b-93143f8cea48",
+      "sourcePort": "4f73de6e-156d-4d0b-a523-a20c47454f2c",
+      "target": "d3c47290-29a0-4916-9963-4d46ed718545",
+      "targetPort": "24efec66-2505-43be-875a-b12e498b7b57",
+      "points": [
+        {
+          "id": "4d5d12bd-e661-4ebf-a13c-a0ba4279742e",
+          "selected": true,
+          "x": 1630.0625820057555,
+          "y": 2271.593765825805
+        },
+        {
+          "id": "a693e87b-2ae8-4af4-a621-6eb1751e3f79",
+          "selected": true,
+          "x": 1723.812475852283,
+          "y": 2341.5469385973947
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "f6f2f7c7-8d30-48fb-b156-595712eb2724",
+      "type": "default",
+      "selected": true,
+      "source": "d3c47290-29a0-4916-9963-4d46ed718545",
+      "sourcePort": "e5099203-8cdb-4a58-a0da-e746d9d4bb2c",
+      "target": "3c8d599c-8ccd-47bc-afa9-d132bf61b541",
+      "targetPort": "01a327fb-9b76-48e7-b388-9f091a0b5eb4",
+      "points": [
+        {
+          "id": "0653ca8f-74cc-4518-b720-05f7462b8438",
+          "selected": true,
+          "x": 1943.4687828566966,
+          "y": 2320.0469176497763
+        },
+        {
+          "id": "4cbfc5b3-869b-4314-b8be-c1dc7819aa28",
+          "selected": true,
+          "x": 2035.2655498708132,
+          "y": 2319.8437823655267
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "26a58007-f198-4782-b4cb-b7f2d9391ce4",
+      "type": "default",
+      "selected": true,
+      "source": "d3c47290-29a0-4916-9963-4d46ed718545",
+      "sourcePort": "fd8efbbf-447e-4140-b4e0-fbdc8a97c9a7",
+      "target": "e8238453-1c27-425a-ac47-9b0767f3360d",
+      "targetPort": "1c83034e-ce6c-4e7f-8ea6-618e5c27cada",
+      "points": [
+        {
+          "id": "ff36a7a1-c9fe-41ab-abec-bfcba631d33e",
+          "selected": true,
+          "x": 1943.4687828566966,
+          "y": 2363.04686249041
+        },
+        {
+          "id": "bdadc3a3-423b-4f23-97a7-473d39d907e2",
+          "selected": true,
+          "x": 2037.7187020182998,
+          "y": 2439.531324776366
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "efe4587f-34bf-46c7-940d-668e2f8314ed",
+      "type": "default",
+      "selected": true,
+      "source": "7c42b369-6f76-4b08-8512-489a02dd2b05",
+      "sourcePort": "520078fc-e385-439c-981b-a2d73eda80e7",
+      "target": "370250dc-7ffc-487a-bc3e-9c6465f71b60",
+      "targetPort": "6bcbce53-3f62-49cf-a9f7-1066cf2454c9",
+      "points": [
+        {
+          "id": "f8e2a446-d33c-4173-a5fc-6e66a220a2bc",
+          "selected": true,
+          "x": 684.4219269971833,
+          "y": 803.9375519938147
+        },
+        {
+          "id": "68e99690-8fcd-4861-88fa-1c1b1b35dc2e",
+          "selected": true,
+          "x": 736.6249775204126,
+          "y": 1327.2812787967516
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "8ce0f3e3-e774-482d-968a-bca5f94b4548",
+      "type": "default",
+      "selected": true,
+      "source": "370250dc-7ffc-487a-bc3e-9c6465f71b60",
+      "sourcePort": "02d86ed2-ca7c-4335-a422-81d7e8738271",
+      "target": "b73c9567-f167-43a1-a0a2-b3a4b6c34e0f",
+      "targetPort": "219a3536-73db-4176-9dca-47db73d90f15",
+      "points": [
+        {
+          "id": "2a9769d7-a6f8-4c1a-9602-47d2058fe4a2",
+          "selected": true,
+          "x": 956.2811874702232,
+          "y": 1346.7812955386707
+        },
+        {
+          "id": "85c72804-3daa-471e-a940-4e044e8b5f1e",
+          "selected": true,
+          "x": 1032.8594045027558,
+          "y": 1702.1250330176147
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "7a60dde2-edf0-4e38-a0d8-4f2b2259f229",
+      "type": "default",
+      "selected": true,
+      "source": "b73c9567-f167-43a1-a0a2-b3a4b6c34e0f",
+      "sourcePort": "dfb86a4e-d594-4264-9f91-291938675ace",
+      "target": "fa49b536-d270-4136-82ea-a508064d5261",
+      "targetPort": "904dac44-16a6-4881-bde6-f7a2964a9a39",
+      "points": [
+        {
+          "id": "2481bc1a-a432-4a58-b4fe-2d5b7a3b5a7a",
+          "selected": true,
+          "x": 1252.5157115071695,
+          "y": 1678.6250321279474
+        },
+        {
+          "id": "232c0e4e-159f-44a5-bbd0-cb39ebc1ef80",
+          "selected": true,
+          "x": 1327.0313241150152,
+          "y": 1641.5000329165164
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "e8960041-fb62-40a0-a4c1-101dc30ba277",
+      "type": "default",
+      "selected": true,
+      "source": "b73c9567-f167-43a1-a0a2-b3a4b6c34e0f",
+      "sourcePort": "30d5a376-5755-4c0b-9bb6-4374df576321",
+      "target": "267fe232-b2ad-4d0a-9792-1ab9dc24b5fe",
+      "targetPort": "19905330-585b-4a4e-b00e-f966e7994adc",
+      "points": [
+        {
+          "id": "eaaee41f-9ba7-4c25-a9c0-355d11713136",
+          "selected": true,
+          "x": 1252.5157115071695,
+          "y": 1721.6250254958827
+        },
+        {
+          "id": "7eb0c10a-1ba4-40ce-b59a-4ecdf0a1e95f",
+          "selected": true,
+          "x": 1332.8907046122486,
+          "y": 1797.0781613058443
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "4b000ca1-3fbd-4861-b2dd-bc6b19ca496d",
+      "type": "default",
+      "selected": true,
+      "source": "267fe232-b2ad-4d0a-9792-1ab9dc24b5fe",
+      "sourcePort": "4145d0ff-d900-4792-901b-12ed10e3b9f3",
+      "target": "b18f54f8-c094-4653-a94f-4980ad7b4065",
+      "targetPort": "98011a95-7dc5-4562-a5fc-6ffade2c83b4",
+      "points": [
+        {
+          "id": "ee08e086-749d-4e12-a84b-0a55d2972e3b",
+          "selected": true,
+          "x": 1552.5468175074561,
+          "y": 1740.5781638130886
+        },
+        {
+          "id": "9eda7b6b-e941-4d86-a197-5bbe78cd8846",
+          "selected": true,
+          "x": 1655.187495323863,
+          "y": 1800.4062849637612
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "fcaab483-2c18-4784-8a75-5d576972c3de",
+      "type": "default",
+      "selected": true,
+      "source": "267fe232-b2ad-4d0a-9792-1ab9dc24b5fe",
+      "sourcePort": "bc6a2a26-e1ac-46bf-84aa-8d5b999ae9d6",
+      "target": "61c9fb6b-cab3-4e90-adc3-0aa5021ed0ed",
+      "targetPort": "5524c4d5-683e-4682-bba5-03b3eaf30e8d",
+      "points": [
+        {
+          "id": "3c7bbc65-d792-4581-aba7-ddc148a92e25",
+          "selected": true,
+          "x": 1552.5468175074561,
+          "y": 1783.578157181024
+        },
+        {
+          "id": "6a0b4032-58a4-4cd6-9d8a-8c87f2eb196a",
+          "selected": true,
+          "x": 1663.796820944806,
+          "y": 1916.8281340901158
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "58593d71-e55f-4005-a033-9cad619a1def",
+      "type": "default",
+      "selected": true,
+      "source": "370250dc-7ffc-487a-bc3e-9c6465f71b60",
+      "sourcePort": "dd3a0f12-b9f5-4a65-82f7-802d9e2ce214",
+      "target": "7b3f3ca7-cfb7-487c-8657-27947122e9b9",
+      "targetPort": "740c234b-7076-4658-962e-0d79fa79a8c4",
+      "points": [
+        {
+          "id": "639a4641-74d5-446a-9afd-02fa37cf7573",
+          "selected": true,
+          "x": 956.2811874702232,
+          "y": 1303.7812779070846
+        },
+        {
+          "id": "b511a9b0-daf1-43a0-8c82-1f1020ce2703",
+          "selected": true,
+          "x": 1023.8750598955058,
+          "y": 1180.1094014032442
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "633ee4c2-3efb-448b-a9d4-7c53f98a5828",
+      "type": "default",
+      "selected": true,
+      "source": "7b3f3ca7-cfb7-487c-8657-27947122e9b9",
+      "sourcePort": "a3c57497-86a6-4f69-977d-3279b4ba8aeb",
+      "target": "17ba4482-3614-4286-a21c-af2db08b0032",
+      "targetPort": "f129900f-1f1a-4cbb-ad25-776c136c8a8f",
+      "points": [
+        {
+          "id": "2f70fd25-f9aa-4d92-9efb-63347918b35b",
+          "selected": true,
+          "x": 1243.5313668999197,
+          "y": 1156.6094247772278
+        },
+        {
+          "id": "6c78f0c1-460b-483a-8f88-d8734839fecb",
+          "selected": true,
+          "x": 1328.1719098104284,
+          "y": 1034.125011342089
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "caf43b0b-d384-4e8b-b262-9edda324397b",
+      "type": "default",
+      "selected": true,
+      "source": "17ba4482-3614-4286-a21c-af2db08b0032",
+      "sourcePort": "cd225007-cfc9-4776-8c9d-3eff1e18f809",
+      "target": "c6e09fda-890e-416e-af23-ab20c6ab8bf0",
+      "targetPort": "47b6d6af-bec4-4c7d-8c1e-19aedecdf43c",
+      "points": [
+        {
+          "id": "6b03bb8d-3f2c-4023-a26d-55652b77e75b",
+          "selected": true,
+          "x": 1547.828216814842,
+          "y": 999.6250115847256
+        },
+        {
+          "id": "74487ae8-f61c-4df3-8b27-c296bf8f29b0",
+          "selected": true,
+          "x": 1665.0626070781943,
+          "y": 1001.4531806156693
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "38a0935c-a716-4be3-8e12-4ccf52090888",
+      "type": "default",
+      "selected": true,
+      "source": "17ba4482-3614-4286-a21c-af2db08b0032",
+      "sourcePort": "3077595f-9183-43e7-a1c5-760bf69d27f2",
+      "target": "3e8db6da-0d8c-4c0a-ae8a-d401c6d8593b",
+      "targetPort": "a7a85668-61ed-4b2b-bd06-e27db0697054",
+      "points": [
+        {
+          "id": "ce400425-1dd3-4a5d-a84b-7d3b4ab330f4",
+          "selected": true,
+          "x": 1547.828216814842,
+          "y": 1042.6250534799624
+        },
+        {
+          "id": "fd822542-cc14-40db-a9a8-0343408f3297",
+          "selected": true,
+          "x": 1642.1251104043367,
+          "y": 1207.5469318035766
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "48f8cf18-2bb1-4a6e-bcf1-661d7d67d729",
+      "type": "default",
+      "selected": true,
+      "source": "3e8db6da-0d8c-4c0a-ae8a-d401c6d8593b",
+      "sourcePort": "6ebb6328-166c-4cd8-a510-0385c6062972",
+      "target": "f5ab2101-3795-4102-a352-962f85759020",
+      "targetPort": "f6d66f39-73bd-4089-a825-7917e5cdcd42",
+      "points": [
+        {
+          "id": "8e68b2aa-51ad-4d5b-989f-6bc5ae27b839",
+          "selected": true,
+          "x": 1861.7812232995443,
+          "y": 1184.0469066502587
+        },
+        {
+          "id": "a96c0c1d-61b9-4d4e-adca-bd2decae2997",
+          "selected": true,
+          "x": 1944.89063279184,
+          "y": 1146.656281122019
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "d294f9e8-63ba-4f0c-aab9-c50111c22c8b",
+      "type": "default",
+      "selected": true,
+      "source": "3e8db6da-0d8c-4c0a-ae8a-d401c6d8593b",
+      "sourcePort": "3d635fbc-eb2f-46e7-a533-113da2dcdc9a",
+      "target": "64f9c9de-a8f9-40e9-8f1b-bb10a5e05fc8",
+      "targetPort": "c147ea88-8b1b-4e61-a5f2-46b236c402fd",
+      "points": [
+        {
+          "id": "86082938-c53e-481e-9810-185caf5d9dee",
+          "selected": true,
+          "x": 1861.7812232995443,
+          "y": 1227.046900018194
+        },
+        {
+          "id": "ade61359-9f6f-4fc2-8b1a-7c931f4cc585",
+          "selected": true,
+          "x": 1943.7030726685352,
+          "y": 1273.5937781193916
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "91f980fb-ae6f-457d-9096-1b4b4dab9b6a",
+      "type": "default",
+      "selected": true,
+      "source": "7b3f3ca7-cfb7-487c-8657-27947122e9b9",
+      "sourcePort": "b253ab30-870f-41e8-9dc8-8b63b1c1a09c",
+      "target": "550d589b-f50b-4394-80e7-28543ad0c847",
+      "targetPort": "799676eb-c406-4be5-9437-d680e236396e",
+      "points": [
+        {
+          "id": "5d3849af-1c94-43fc-82eb-ac40a64540b8",
+          "selected": true,
+          "x": 1243.5313668999197,
+          "y": 1199.609418145163
+        },
+        {
+          "id": "72555e47-f9d3-4785-9f50-597069fe4764",
+          "selected": true,
+          "x": 1311.531315784495,
+          "y": 1401.8750446237286
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "f30bd12c-fa92-47ee-9e75-5cb289b3b5b0",
+      "type": "default",
+      "selected": true,
+      "source": "550d589b-f50b-4394-80e7-28543ad0c847",
+      "sourcePort": "3cafab93-309a-4a65-b4be-087035c748ca",
+      "target": "0aa69ae4-e880-4f2d-a1f3-fb00ad3ef337",
+      "targetPort": "02a7bcc2-c04b-45d7-9304-1d7424adb056",
+      "points": [
+        {
+          "id": "c527a3e2-677e-432c-892f-d5e1ed4139c6",
+          "selected": true,
+          "x": 1531.1874286797026,
+          "y": 1423.3750413076964
+        },
+        {
+          "id": "b5c23253-5c0a-4362-ace8-92047900b18a",
+          "selected": true,
+          "x": 1625.296812776044,
+          "y": 1621.9844146471519
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "b2aee6e6-c078-4542-ba06-df2883354525",
+      "type": "default",
+      "selected": true,
+      "source": "0aa69ae4-e880-4f2d-a1f3-fb00ad3ef337",
+      "sourcePort": "e1c57bc4-ab38-4cd3-8398-80daac5a32e1",
+      "target": "853e9280-ec35-4e5b-958e-b4b916ea5bac",
+      "targetPort": "52e09ad4-630b-4e47-9174-148039929cf4",
+      "points": [
+        {
+          "id": "f076e07e-844c-4d93-8769-7d4836898127",
+          "selected": true,
+          "x": 1844.9531197804577,
+          "y": 1598.4844137574848
+        },
+        {
+          "id": "5226a885-b34a-4857-87d1-567df4b472d0",
+          "selected": true,
+          "x": 1943.6250407676578,
+          "y": 1577.2656631155091
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "8d9e5d74-9c77-4ea0-862f-9b12c5e478da",
+      "type": "default",
+      "selected": true,
+      "source": "0aa69ae4-e880-4f2d-a1f3-fb00ad3ef337",
+      "sourcePort": "2bd15f66-ee17-4e3b-a560-c914d22b0951",
+      "target": "45e826cb-d029-4be2-aa55-aa9eed4c1803",
+      "targetPort": "64329943-6b7a-4ef4-9bd6-88a487d1a33d",
+      "points": [
+        {
+          "id": "3025338e-d2de-4884-819b-886ac173d9c7",
+          "selected": true,
+          "x": 1844.9531197804577,
+          "y": 1641.4844071254201
+        },
+        {
+          "id": "e00353c6-b820-46ff-bb57-2564c7003276",
+          "selected": true,
+          "x": 1947.25003019275,
+          "y": 1732.515668089557
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "0e80f0be-7744-4268-9597-b6fe3ff8ab1a",
+      "type": "default",
+      "selected": true,
+      "source": "b85fb854-1320-4cf6-b66f-7747840332d8",
+      "sourcePort": "78ff1c6c-e467-4fbc-80df-a2f6afbffb1d",
+      "target": "731c60d9-0048-4f4e-80d5-bc3bdf3e0763",
+      "targetPort": "f510f3fa-1635-4ced-bc7c-a0458bd0899c",
+      "points": [
+        {
+          "id": "9c9195ca-21a2-4377-a9a4-b9e991322911",
+          "selected": true,
+          "x": 1867.4843458858165,
+          "y": 1369.0625332501425
+        },
+        {
+          "id": "a29011e3-61da-4ac9-8ad9-20ea71a9b982",
+          "selected": true,
+          "x": 2171.7811958007387,
+          "y": 1324.5625367279326
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "8fe3e892-c0b1-45cf-90ab-4435b3ed550c",
+      "type": "default",
+      "selected": true,
+      "source": "b85fb854-1320-4cf6-b66f-7747840332d8",
+      "sourcePort": "d512ffff-0212-43eb-a05d-d8ad494219d4",
+      "target": "ff161c4a-1835-487c-836b-4e96e8705b6b",
+      "targetPort": "b4e0662d-cae3-42ab-b7f6-9cc0e8b3f5c3",
+      "points": [
+        {
+          "id": "6d7620ae-3946-41f1-b07c-e76530e396e8",
+          "selected": true,
+          "x": 1867.4843458858165,
+          "y": 1412.0625266180778
+        },
+        {
+          "id": "a2b12a99-583e-4ec8-b935-a5fc9cc287a9",
+          "selected": true,
+          "x": 2171.1563582661006,
+          "y": 1460.296905234878
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "ee919eae-1361-4c3b-bb97-c377e5740224",
+      "type": "default",
+      "selected": true,
+      "source": "ff161c4a-1835-487c-836b-4e96e8705b6b",
+      "sourcePort": "71270d7d-c0e1-4344-a885-3a343e8cffe3",
+      "target": "cf9fe779-303d-4bbf-a4ff-2a251664c4f6",
+      "targetPort": "85df0323-940f-4d99-837d-ffb979facaa9",
+      "points": [
+        {
+          "id": "dd149a61-0327-4f48-b5d2-792c5ff7c330",
+          "selected": true,
+          "x": 2390.812471161308,
+          "y": 1436.7969164770363
+        },
+        {
+          "id": "d5749663-4bb3-412a-8285-446034cd058e",
+          "selected": true,
+          "x": 2530.5625587935265,
+          "y": 1375.3594116344161
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "3fcd41b0-abc7-4655-a44c-2b91749382c7",
+      "type": "default",
+      "selected": true,
+      "source": "ff161c4a-1835-487c-836b-4e96e8705b6b",
+      "sourcePort": "787713d8-2c7e-4178-9da3-73ca99a02956",
+      "target": "f5fc7eb2-c119-4abd-8537-7f169af1991f",
+      "targetPort": "33fe9d63-17c3-4de7-8f3c-18ae9eea5f48",
+      "points": [
+        {
+          "id": "4782c351-cf87-4e26-b76c-09c9f6f790e4",
+          "selected": true,
+          "x": 2390.812471161308,
+          "y": 1479.7969098449717
+        },
+        {
+          "id": "8c090802-c582-4add-b953-7753761f955a",
+          "selected": true,
+          "x": 2534.531315622733,
+          "y": 1534.9219105122218
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "0bf6b4ea-e173-4675-91fd-47ec0991e008",
+      "type": "default",
+      "selected": true,
+      "source": "550d589b-f50b-4394-80e7-28543ad0c847",
+      "sourcePort": "77a82f49-6299-45c4-b39a-7734a83c4b08",
+      "target": "b85fb854-1320-4cf6-b66f-7747840332d8",
+      "targetPort": "344c6937-d041-4c5a-a3c9-6349f778c9ed",
+      "points": [
+        {
+          "id": "85e9c336-a11c-4302-96b3-76c65d362963",
+          "selected": true,
+          "x": 1531.1874286797026,
+          "y": 1380.3750236761102
+        },
+        {
+          "id": "11cce2ef-4384-4d7b-b8da-6ade868552aa",
+          "selected": true,
+          "x": 1647.828232990609,
+          "y": 1403.5625330075059
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "7c781f14-e8ad-4c3e-9e45-64c3774ee70d",
+      "type": "default",
+      "selected": true,
+      "source": "b855aef0-d1c6-4d0d-a48e-5ba193a3b9d2",
+      "sourcePort": "96205078-b65d-4347-a2c1-8f5fb135148d",
+      "target": "d0b762e2-9ad7-4c8f-88d0-df06583cee15",
+      "targetPort": "5a50b0a4-58f4-4288-b7c2-2ae2789ab794",
+      "points": [
+        {
+          "id": "d430e7b2-2a8c-44ec-beb1-70a36515ccc0",
+          "selected": true,
+          "x": 727.8593939885083,
+          "y": 2749.3594135755034
+        },
+        {
+          "id": "b0b01777-b349-4868-b540-c7f92775168b",
+          "selected": true,
+          "x": 882.0313103656147,
+          "y": 2677.23444995076
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "a9e0febf-6b9b-4de6-b9aa-1b9ba2caf548",
+      "type": "default",
+      "selected": true,
+      "source": "d0b762e2-9ad7-4c8f-88d0-df06583cee15",
+      "sourcePort": "13e72087-03fe-4578-8f1c-6d3ca22d91a3",
+      "target": "8bf68f45-9689-455e-bbbe-98698b449b08",
+      "targetPort": "6088ece4-a7e0-4153-a978-0c91a0799e21",
+      "points": [
+        {
+          "id": "53372eb8-2bf3-49ed-bf76-5c85e3174ae7",
+          "selected": true,
+          "x": 1101.6876173700284,
+          "y": 2642.7344501933967
+        },
+        {
+          "id": "39476329-f86b-4067-be08-56e15a4ed4b8",
+          "selected": true,
+          "x": 1206.9687627178691,
+          "y": 2585.5937467383987
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "571cf69d-9f4a-4f00-99da-979631960178",
+      "type": "default",
+      "selected": true,
+      "source": "d0b762e2-9ad7-4c8f-88d0-df06583cee15",
+      "sourcePort": "1e4b0cd1-e96b-4afc-8ea2-50909a96d61d",
+      "target": "d2b9fc8a-a8fb-4ae3-8347-9421290bf778",
+      "targetPort": "8516fe91-5df5-4e8d-9ba1-c9def76d5c90",
+      "points": [
+        {
+          "id": "b593c709-2f8a-4986-92e0-3797cf633f87",
+          "selected": true,
+          "x": 1101.6876173700284,
+          "y": 2685.7343950340305
+        },
+        {
+          "id": "e05801be-7463-43ea-b279-f6df1e40de8d",
+          "selected": true,
+          "x": 1198.6562300731491,
+          "y": 2734.1875468580015
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "a00bc933-54f1-4e39-8dde-27bed542b4c5",
+      "type": "default",
+      "selected": true,
+      "source": "d2b9fc8a-a8fb-4ae3-8347-9421290bf778",
+      "sourcePort": "c551ae96-a526-40e3-a2de-221608a60c28",
+      "target": "bcad6634-dae6-413a-b18c-1000bd484168",
+      "targetPort": "0956c91c-4287-4509-8bcb-6a853c91e44b",
+      "points": [
+        {
+          "id": "0a2e3fa3-3cdf-4b97-8cae-1a6898694cba",
+          "selected": true,
+          "x": 1418.3125370775629,
+          "y": 2699.6875471006383
+        },
+        {
+          "id": "8aa80887-1ed0-4849-b8ee-d1b61c5eca84",
+          "selected": true,
+          "x": 1499.7500839771776,
+          "y": 2632.437539134073
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "7e36e4a3-c03a-4ecf-a8a3-9328c805162c",
+      "type": "default",
+      "selected": true,
+      "source": "15393c6f-f49b-426e-84d0-b4f8e9d24019",
+      "sourcePort": "e917793b-68ea-40e7-81cf-94015c448be5",
+      "target": "1a0ad75e-faca-491a-a069-07554b05bc00",
+      "targetPort": "bf3c5f98-97af-4841-ba87-646aa9631792",
+      "points": [
+        {
+          "id": "57e386fe-f15c-483f-bdc2-b65f1d2eae8a",
+          "selected": true,
+          "x": 1725.453086862772,
+          "y": 2755.953206254254
+        },
+        {
+          "id": "af424f66-3771-4f2f-b4d2-aa0ad9076901",
+          "selected": true,
+          "x": 1814.406348115808,
+          "y": 2721.468832287987
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "b8752fd8-3169-4a4c-92f0-162871ba5031",
+      "type": "default",
+      "selected": true,
+      "source": "15393c6f-f49b-426e-84d0-b4f8e9d24019",
+      "sourcePort": "71067a3e-c45f-4388-8276-8718e81acd42",
+      "target": "85f78575-f3d9-4d23-9927-51b9e4caa054",
+      "targetPort": "b330bb24-83f0-4db1-b8f6-ba4f2e08c37a",
+      "points": [
+        {
+          "id": "601e7445-fc72-4b94-8c28-65ddb718e8c1",
+          "selected": true,
+          "x": 1725.453086862772,
+          "y": 2798.9531510948877
+        },
+        {
+          "id": "87ac3ff2-96c5-4162-b255-12dddbcd9781",
+          "selected": true,
+          "x": 1813.2187879925032,
+          "y": 2848.421882285503
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "87ce2f29-f1c7-4ce8-85d5-aaf4e0ee7301",
+      "type": "default",
+      "selected": true,
+      "source": "d2b9fc8a-a8fb-4ae3-8347-9421290bf778",
+      "sourcePort": "ff3d4520-c6f0-4bc4-87af-f4168e54c07a",
+      "target": "15393c6f-f49b-426e-84d0-b4f8e9d24019",
+      "targetPort": "1d7382cc-8b27-42e1-abec-785499ca4bda",
+      "points": [
+        {
+          "id": "7ebf31cd-92bc-4c00-9bfa-59afe4fce750",
+          "selected": true,
+          "x": 1418.3125370775629,
+          "y": 2742.687491941272
+        },
+        {
+          "id": "06a8cffb-384d-4606-98a2-fe240ea91616",
+          "selected": true,
+          "x": 1505.7969739675643,
+          "y": 2779.453134352969
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "612bbedd-fcd1-41dd-84a8-9329707d9892",
+      "type": "default",
+      "selected": true,
+      "source": "b855aef0-d1c6-4d0d-a48e-5ba193a3b9d2",
+      "sourcePort": "d870875d-29d7-4d9b-a474-01bba3b22cd0",
+      "target": "5b55dc0f-ce63-4626-a6ec-2fbc53e8eb26",
+      "targetPort": "a46e6a11-53f9-4605-8684-bec433250d5c",
+      "points": [
+        {
+          "id": "1a58ee20-f44f-4af6-8932-8cfc15666630",
+          "selected": true,
+          "x": 727.8593939885083,
+          "y": 2792.35945547074
+        },
+        {
+          "id": "0864cad5-fed4-40db-bb51-feef374494ef",
+          "selected": true,
+          "x": 859.6562451166138,
+          "y": 3122.046857152404
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "92de26c9-b96d-474d-a320-24bcafc0cc3d",
+      "type": "default",
+      "selected": true,
+      "source": "5b55dc0f-ce63-4626-a6ec-2fbc53e8eb26",
+      "sourcePort": "d0213e55-2d45-4f8a-86ae-ab0cb05c9a93",
+      "target": "7d0d5eee-410b-4a60-9cb3-940d7a889e36",
+      "targetPort": "4bec77b0-ba20-42dc-8899-b22e517118d8",
+      "points": [
+        {
+          "id": "534979b1-e2bb-4611-899b-664e8621c1ac",
+          "selected": true,
+          "x": 1079.3124550664245,
+          "y": 3100.546933259389
+        },
+        {
+          "id": "e73f8a58-6195-4229-a11a-074e35f6bb2f",
+          "selected": true,
+          "x": 1200.1875576005682,
+          "y": 2966.48443947695
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "c1060268-39e2-474f-ad64-eb87b080dc66",
+      "type": "default",
+      "selected": true,
+      "source": "7d0d5eee-410b-4a60-9cb3-940d7a889e36",
+      "sourcePort": "c13d3f8c-a820-418a-95b0-8e92fd632bf0",
+      "target": "9ef502a1-b2ae-4d08-9399-0fc26ac41360",
+      "targetPort": "de6e0895-48de-4bef-9301-a274554418e9",
+      "points": [
+        {
+          "id": "26af8f8f-7b0d-4e84-a138-c18a62471ff0",
+          "selected": true,
+          "x": 1419.843864604982,
+          "y": 2942.984414323632
+        },
+        {
+          "id": "fcb1620f-397b-4bcb-a6cc-781013b940de",
+          "selected": true,
+          "x": 1527.1093883674262,
+          "y": 2910.2812834877186
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "1990634f-961f-4517-b4ba-0c6182238258",
+      "type": "default",
+      "selected": true,
+      "source": "7d0d5eee-410b-4a60-9cb3-940d7a889e36",
+      "sourcePort": "6c91bf5b-0715-4b53-8ecc-b6f04fb8c6ce",
+      "target": "8298d263-687e-4af3-ba37-2f3acdc4e401",
+      "targetPort": "fbe4b654-1dad-4479-92e4-981a81312967",
+      "points": [
+        {
+          "id": "17cf296d-88b7-41af-86d5-0b073a02e8e7",
+          "selected": true,
+          "x": 1419.843864604982,
+          "y": 2985.9844562188687
+        },
+        {
+          "id": "4e2d0be2-380b-4079-bb52-e0389e74f341",
+          "selected": true,
+          "x": 1529.0625151998374,
+          "y": 3062.7812402175405
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "06830c14-5b1f-480f-a49a-5b6cdd4d9f87",
+      "type": "default",
+      "selected": true,
+      "source": "5b55dc0f-ce63-4626-a6ec-2fbc53e8eb26",
+      "sourcePort": "5417c784-5c31-4bea-86ef-4ae86350f510",
+      "target": "6e1903f0-2871-4f99-a2f7-e28c3dec8c7f",
+      "targetPort": "aa0bbf11-4022-4c7a-8bcc-8b1b116762d2",
+      "points": [
+        {
+          "id": "54b04323-dec1-4555-b835-c03cdab6c12d",
+          "selected": true,
+          "x": 1079.3124550664245,
+          "y": 3143.5467810454193
+        },
+        {
+          "id": "4b5d21d9-2126-49a7-ac9e-d3ccbba25474",
+          "selected": true,
+          "x": 1183.3594540814815,
+          "y": 3354.4844789458202
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "35a80153-f8ee-4bd9-9b3d-8ca9abd6e6ed",
+      "type": "default",
+      "selected": true,
+      "source": "6e1903f0-2871-4f99-a2f7-e28c3dec8c7f",
+      "sourcePort": "9e4bc21c-89e4-4d4f-8a46-12c22dd636cb",
+      "target": "b169cecf-c310-47e7-a8c8-71122fc2da19",
+      "targetPort": "fd0f5e01-7b97-4fb2-a74b-a4b0ca608039",
+      "points": [
+        {
+          "id": "8ea7401e-e145-4335-8341-2f23c637cd8c",
+          "selected": true,
+          "x": 1403.0155669766891,
+          "y": 3330.9844537925023
+        },
+        {
+          "id": "42c10f2c-72ae-404f-999f-ec22eb630577",
+          "selected": true,
+          "x": 1517.9218114213238,
+          "y": 3231.1094439455046
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "ea71e603-6537-45c4-98a3-1b47c8c6bb52",
+      "type": "default",
+      "selected": true,
+      "source": "6e1903f0-2871-4f99-a2f7-e28c3dec8c7f",
+      "sourcePort": "b2f227d6-fc1b-455c-9685-9e167a659085",
+      "target": "4a44ed27-08b3-4399-a16a-00922775a229",
+      "targetPort": "6e4d91b8-3a39-4428-b100-8bfa8195b885",
+      "points": [
+        {
+          "id": "343adea2-dfae-475d-8c13-5079141ced04",
+          "selected": true,
+          "x": 1403.0155669766891,
+          "y": 3373.984495687739
+        },
+        {
+          "id": "4c062e72-e644-41e3-85c6-6e5aaf767473",
+          "selected": true,
+          "x": 1515.3750986364664,
+          "y": 3395.578174327331
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "d2f451df-9dbe-4561-b9f8-410270ed96d3",
+      "type": "default",
+      "selected": true,
+      "source": "4a44ed27-08b3-4399-a16a-00922775a229",
+      "sourcePort": "673dbd45-76ea-4223-ab79-4a309bedc4a2",
+      "target": "8e08fde4-0b92-418f-b165-410104bbcce1",
+      "targetPort": "eb583c2b-4b9e-483e-af65-5451d4d3f193",
+      "points": [
+        {
+          "id": "bdb1425f-e6a0-4be7-bcfd-c2cbfaebbfa3",
+          "selected": true,
+          "x": 1735.031211531674,
+          "y": 3415.0781910692504
+        },
+        {
+          "id": "aa53974b-a709-437c-9b9c-e77d8f5746ec",
+          "selected": true,
+          "x": 1846.2812149690242,
+          "y": 3479.15635755251
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "4399e28f-f84f-4a09-90b6-d8946d329f4d",
+      "type": "default",
+      "selected": true,
+      "source": "da0ad224-621f-4da4-b23e-f47e4ffca230",
+      "sourcePort": "9faf8ba4-da62-41fd-9014-add80e78887d",
+      "target": "8dadfe96-7968-486c-a6de-1fa24d580e91",
+      "targetPort": "c10997ec-e80a-4bcb-95bd-ff6d19f35174",
+      "points": [
+        {
+          "id": "039f2909-583b-4ed0-b7bb-a81580bf564e",
+          "selected": true,
+          "x": 2060.96871451408,
+          "y": 3292.4062196136565
+        },
+        {
+          "id": "acd5f670-884f-4147-be91-9cf3f38ecb0b",
+          "selected": true,
+          "x": 2154.234305891231,
+          "y": 3252.921883660442
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "4c8462a7-d21b-4278-ab4c-b5e1b2e11fd6",
+      "type": "default",
+      "selected": true,
+      "source": "da0ad224-621f-4da4-b23e-f47e4ffca230",
+      "sourcePort": "cba84071-309a-4090-8ade-7e69bf426cf8",
+      "target": "24244c1b-942e-4266-aeec-7887b7ded052",
+      "targetPort": "dca3b23c-777c-46b7-8bdb-18c1bc46a5fc",
+      "points": [
+        {
+          "id": "02fff441-e02c-4a68-acce-38e4cc3fa40c",
+          "selected": true,
+          "x": 2060.96871451408,
+          "y": 3335.4062615088933
+        },
+        {
+          "id": "06318df5-8416-46e6-84ae-824e1e6856ce",
+          "selected": true,
+          "x": 2155.218827784889,
+          "y": 3444.8751188704928
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "0c371b90-b1ca-4bf2-b39f-d601b362aad6",
+      "type": "default",
+      "selected": true,
+      "source": "4a44ed27-08b3-4399-a16a-00922775a229",
+      "sourcePort": "de64451c-770d-43c8-933b-3374fb181cad",
+      "target": "da0ad224-621f-4da4-b23e-f47e4ffca230",
+      "targetPort": "f3b74944-0103-4af0-8d31-f28e675b473f",
+      "points": [
+        {
+          "id": "a360ec07-ecbc-4400-adc4-df7abad0749a",
+          "selected": true,
+          "x": 1735.031211531674,
+          "y": 3372.078149174013
+        },
+        {
+          "id": "c894fbe2-0719-4dee-992c-469e4d7fbc86",
+          "selected": true,
+          "x": 1841.3126016188723,
+          "y": 3313.906337615878
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    },
+    {
+      "id": "1edb8522-ea5a-43dd-b582-32396d2d0beb",
+      "type": "default",
+      "selected": true,
+      "source": "34f9e397-0601-4894-a706-86431f476b6f",
+      "sourcePort": "06228208-77d4-4ff7-be2a-42b56bc127ac",
+      "target": "b855aef0-d1c6-4d0d-a48e-5ba193a3b9d2",
+      "targetPort": "156dde2f-d4ed-4e10-8241-033a34d4fc1e",
+      "points": [
+        {
+          "id": "3886cbb5-b3eb-4e11-aacf-d1eea312f488",
+          "selected": true,
+          "x": 57.73438604216503,
+          "y": 2142.359398855557
+        },
+        {
+          "id": "d9c1c9bc-2c87-4a67-9dfb-44d2644fdce3",
+          "selected": true,
+          "x": 508.2031840386976,
+          "y": 2772.8594387288213
+        }
+      ],
+      "extras": {},
+      "labels": [],
+      "width": 3,
+      "color": "rgba(255,255,255,0.5)",
+      "curvyness": 50
+    }
+  ],
+  "copiedMeta": {
+    "34f9e397-0601-4894-a706-86431f476b6f": { "text": "<p><br></p>" },
+    "7c42b369-6f76-4b08-8512-489a02dd2b05": { "text": "<p><br></p>" },
+    "b855aef0-d1c6-4d0d-a48e-5ba193a3b9d2": { "text": "<p><br></p>" },
+    "f3f7ce40-f675-4655-a7ad-48e415024da1": {
+      "isFinal": true,
+      "image": "/media/W1siZiIsIjIwMjEvMTEvMzAvMjAvMTQvMTMvNjY1ZWJhYmMtOTY3Yi00NGJkLTkyNjgtMmFmOWMyNTg2OGNhL2ZpbGUucG5nIl1d/file.png?sha=fe469fdd91e0953d"
+    },
+    "29482b63-23d6-4bb3-b88a-3a49ca6f041f": {
+      "isFinal": true,
+      "image": "/media/W1siZiIsIjIwMjEvMTEvMzAvMjAvMTYvMzcvZWI1YmFmMmEtM2I2YS00ZjI5LTg1OTQtZDdjY2QxNDYzZTBlL2ZpbGUucG5nIl1d/file.png?sha=0bc36e8dc24b9477"
+    },
+    "2ca47610-4d19-4297-b1f0-7564c6297986": {
+      "isFinal": true,
+      "image": "/media/W1siZiIsIjIwMjEvMTEvMzAvMjEvMDEvMzYvZjhiNmIwM2UtOGIwOC00YzFiLTg4ZmYtZGRjYTJiYzJlZjE1L2ZpbGUucG5nIl1d/file.png?sha=da1852dd94b5fd99"
+    },
+    "3f602668-267e-4f4d-978d-8ee7d0aefe6b": {
+      "isFinal": true,
+      "image": "/media/W1siZiIsIjIwMjEvMTEvMzAvMjEvMDEvMjAvN2FhMzkxMWItNmQ4OC00M2ZhLWE1YTktZmQxMGI2MzA4YzQyL2ZpbGUucG5nIl1d/file.png?sha=de2d7e5dbc9b0168"
+    },
+    "85e58736-48a4-468d-a6e7-9aaeac5aab49": {
+      "image": "/media/W1siZiIsIjIwMjEvMTEvMzAvMjEvMjkvMDAvZThhMmZkYjAtNmNhZS00N2FlLWI3Y2ItOWRkYmM5NDI3YTg5L2ZpbGUucG5nIl1d/file.png?sha=d34d32a7920aea22",
+      "isFinal": true
+    },
+    "548805d8-d71b-41c5-b0ea-8fc5fe743d96": {
+      "image": "/media/W1siZiIsIjIwMjEvMTEvMzAvMjEvMzAvMDcvNmNhOGIwODQtNjdiMi00MzAwLWEwNGEtMjI2NTcxYWRlMWI4L2ZpbGUucG5nIl1d/file.png?sha=82a64290b62c5ab7",
+      "isFinal": true
+    },
+    "22f4aabb-c770-4b19-b4f0-9fdb398ed973": {
+      "image": "/media/W1siZiIsIjIwMjEvMTEvMzAvMjEvMzEvMDYvODAxZjAxYTctYzA5MS00YzFiLWEyZjktNTFkZjYwZjY2ODY2L2ZpbGUucG5nIl1d/file.png?sha=b0af6a129a044b83",
+      "isFinal": true
+    },
+    "1f1cdb66-1f31-46f8-a03f-b3a44496a6f8": {
+      "image": "/media/W1siZiIsIjIwMjEvMTEvMzAvMjEvMzEvNTQvZGEyY2YxODQtNDg4Zi00NTU1LWExOGQtOWIyNDMxZmEzMDNlL2ZpbGUucG5nIl1d/file.png?sha=c98faebf5cb8db22",
+      "isFinal": true
+    },
+    "0e8f8140-627b-4a3c-8f4b-a262602af066": {
+      "isFinal": true,
+      "image": "/media/W1siZiIsIjIwMjEvMTEvMzAvMjEvMzMvMTIvNDk0OWY1OWEtZjQ4Ni00ZjA3LTg4NWItYzVjNmY0NWJkMjc4L2ZpbGUucG5nIl1d/file.png?sha=0afe5f626b8528c4"
+    },
+    "5732ab0b-e6a4-44dc-847a-7e9804c6446f": {
+      "isFinal": true,
+      "image": "/media/W1siZiIsIjIwMjEvMTEvMzAvMjEvMzMvMTIvNDk0OWY1OWEtZjQ4Ni00ZjA3LTg4NWItYzVjNmY0NWJkMjc4L2ZpbGUucG5nIl1d/file.png?sha=0afe5f626b8528c4"
+    },
+    "4e78acb8-5f94-4c33-8cec-2e907d0bd759": {
+      "image": "/media/W1siZiIsIjIwMjEvMTEvMzAvMjMvMjcvMzYvNzlmODEwMTktODQ0YS00OTQ0LTk1OTQtM2RmZTNlNzkwM2IxL2ZpbGUucG5nIl1d/file.png?sha=a89e58892b7ddb3b",
+      "isFinal": true,
+      "text": "<p><br></p>"
+    },
+    "dc279070-6e1d-4554-85b6-c7f864129546": {
+      "image": "/media/W1siZiIsIjIwMjEvMTEvMzAvMjMvMjgvMDIvYzc0ZTFiMDgtOWQxOS00NTMzLThkNDMtNmJlY2UxZjhjMjc0L2ZpbGUucG5nIl1d/file.png?sha=01a0f755d2aff232",
+      "isFinal": true
+    },
+    "e3ed16c2-f507-4d1a-836c-872a97d7831c": {
+      "image": "/media/W1siZiIsIjIwMjEvMTEvMzAvMjMvMzAvMDAvN2NhMDAzOTgtZWMyNC00ODgyLWE0ZDktOTc2ZTRhMDdhZWU3L2ZpbGUucG5nIl1d/file.png?sha=45675b86c41557a4",
+      "isFinal": true
+    },
+    "6483a393-fea5-4fef-b5a4-54063daefb0f": {
+      "image": "/media/W1siZiIsIjIwMjEvMTEvMzAvMjMvMzAvNTUvNGZmM2YxZGMtM2QzZi00YWEzLTk1NDAtMTVjZDhiMDUyMjM1L2ZpbGUucG5nIl1d/file.png?sha=98d58cd71de212ee",
+      "isFinal": true
+    },
+    "6c479040-6b10-4705-b4a8-313a4f5f89c2": {
+      "isFinal": true,
+      "image": "/media/W1siZiIsIjIwMjEvMTEvMzAvMjMvMzIvMDkvY2U4NmJiMTUtNDhkYy00Y2RhLTk1MGMtOThhZjZkOGY4NzY0L2ZpbGUucG5nIl1d/file.png?sha=e22d2a1e211c8d37"
+    },
+    "3c8d599c-8ccd-47bc-afa9-d132bf61b541": {
+      "image": "/media/W1siZiIsIjIwMjEvMTEvMzAvMjMvMzMvMTAvY2JhODUzYjgtMTVlZS00OWU2LTk3ZDMtZGFlNWNkMWRiMzVjL2ZpbGUucG5nIl1d/file.png?sha=0b98cc85a49654ca",
+      "isFinal": true
+    },
+    "e8238453-1c27-425a-ac47-9b0767f3360d": {
+      "image": "/media/W1siZiIsIjIwMjEvMTEvMzAvMjMvMzMvMzcvZTQzNjM2MDktZjA5Yy00MzBlLTgxM2UtNjdlNDllMWQzYWU2L2ZpbGUucG5nIl1d/file.png?sha=f4a86925826d5cd4",
+      "isFinal": true
+    },
+    "fa49b536-d270-4136-82ea-a508064d5261": {
+      "image": "/media/W1siZiIsIjIwMjEvMTEvMzAvMjMvMjcvMzYvNzlmODEwMTktODQ0YS00OTQ0LTk1OTQtM2RmZTNlNzkwM2IxL2ZpbGUucG5nIl1d/file.png?sha=a89e58892b7ddb3b",
+      "isFinal": true
+    },
+    "b18f54f8-c094-4653-a94f-4980ad7b4065": {
+      "image": "/media/W1siZiIsIjIwMjEvMTEvMzAvMjMvMzAvNTUvNGZmM2YxZGMtM2QzZi00YWEzLTk1NDAtMTVjZDhiMDUyMjM1L2ZpbGUucG5nIl1d/file.png?sha=98d58cd71de212ee",
+      "isFinal": true
+    },
+    "61c9fb6b-cab3-4e90-adc3-0aa5021ed0ed": {
+      "image": "/media/W1siZiIsIjIwMjEvMTEvMzAvMjEvMzEvNTQvZGEyY2YxODQtNDg4Zi00NTU1LWExOGQtOWIyNDMxZmEzMDNlL2ZpbGUucG5nIl1d/file.png?sha=c98faebf5cb8db22",
+      "isFinal": true
+    },
+    "c6e09fda-890e-416e-af23-ab20c6ab8bf0": {
+      "isFinal": true,
+      "image": "/media/W1siZiIsIjIwMjEvMTEvMzAvMjAvMTYvMzcvZWI1YmFmMmEtM2I2YS00ZjI5LTg1OTQtZDdjY2QxNDYzZTBlL2ZpbGUucG5nIl1d/file.png?sha=0bc36e8dc24b9477"
+    },
+    "f5ab2101-3795-4102-a352-962f85759020": {
+      "isFinal": true,
+      "image": "/media/W1siZiIsIjIwMjEvMTEvMzAvMjEvMDEvMjAvN2FhMzkxMWItNmQ4OC00M2ZhLWE1YTktZmQxMGI2MzA4YzQyL2ZpbGUucG5nIl1d/file.png?sha=de2d7e5dbc9b0168"
+    },
+    "64f9c9de-a8f9-40e9-8f1b-bb10a5e05fc8": {
+      "isFinal": true,
+      "image": "/media/W1siZiIsIjIwMjEvMTEvMzAvMjEvMDEvMjAvN2FhMzkxMWItNmQ4OC00M2ZhLWE1YTktZmQxMGI2MzA4YzQyL2ZpbGUucG5nIl1d/file.png?sha=de2d7e5dbc9b0168"
+    },
+    "853e9280-ec35-4e5b-958e-b4b916ea5bac": {
+      "isFinal": true,
+      "image": "/media/W1siZiIsIjIwMjEvMTEvMzAvMjMvNDkvMTcvNGY0NWM3Y2UtNzE1ZS00YTAzLTlkY2QtNTlhYThjNTE0OWMzL2ZpbGUucG5nIl1d/file.png?sha=b207fd7b354920e9"
+    },
+    "45e826cb-d029-4be2-aa55-aa9eed4c1803": {
+      "image": "/media/W1siZiIsIjIwMjEvMTEvMzAvMjMvNDkvMzgvOTNhNzgyNTAtZmMwMC00YjFkLTg0MDctZDIxMmM5NzVmYTgwL2ZpbGUucG5nIl1d/file.png?sha=63134e6ff7bc4baf",
+      "isFinal": true
+    },
+    "731c60d9-0048-4f4e-80d5-bc3bdf3e0763": {
+      "isFinal": true,
+      "image": "/media/W1siZiIsIjIwMjEvMTEvMzAvMjAvMTYvMzcvZWI1YmFmMmEtM2I2YS00ZjI5LTg1OTQtZDdjY2QxNDYzZTBlL2ZpbGUucG5nIl1d/file.png?sha=0bc36e8dc24b9477"
+    },
+    "cf9fe779-303d-4bbf-a4ff-2a251664c4f6": {
+      "isFinal": true,
+      "image": "/media/W1siZiIsIjIwMjEvMTEvMzAvMjEvMDEvMjAvN2FhMzkxMWItNmQ4OC00M2ZhLWE1YTktZmQxMGI2MzA4YzQyL2ZpbGUucG5nIl1d/file.png?sha=de2d7e5dbc9b0168"
+    },
+    "f5fc7eb2-c119-4abd-8537-7f169af1991f": {
+      "isFinal": true,
+      "image": "/media/W1siZiIsIjIwMjEvMTEvMzAvMjEvMDEvMjAvN2FhMzkxMWItNmQ4OC00M2ZhLWE1YTktZmQxMGI2MzA4YzQyL2ZpbGUucG5nIl1d/file.png?sha=de2d7e5dbc9b0168"
+    },
+    "8bf68f45-9689-455e-bbbe-98698b449b08": {
+      "image": "/media/W1siZiIsIjIwMjEvMTIvMDEvMDAvMDIvMTUvN2EzNzBlMTQtZTRkNS00OGRmLTgwMmMtN2ZlZmFhNDI4YjRmL2ZpbGUucG5nIl1d/file.png?sha=9c3ba0c98d3fda65",
+      "isFinal": true,
+      "text": "<p><br></p>"
+    },
+    "bcad6634-dae6-413a-b18c-1000bd484168": {
+      "image": "/media/W1siZiIsIjIwMjEvMTEvMzAvMjEvMzEvNTQvZGEyY2YxODQtNDg4Zi00NTU1LWExOGQtOWIyNDMxZmEzMDNlL2ZpbGUucG5nIl1d/file.png?sha=c98faebf5cb8db22",
+      "isFinal": true
+    },
+    "1a0ad75e-faca-491a-a069-07554b05bc00": {
+      "isFinal": true,
+      "image": "/media/W1siZiIsIjIwMjEvMTEvMzAvMjEvMDEvMjAvN2FhMzkxMWItNmQ4OC00M2ZhLWE1YTktZmQxMGI2MzA4YzQyL2ZpbGUucG5nIl1d/file.png?sha=de2d7e5dbc9b0168"
+    },
+    "85f78575-f3d9-4d23-9927-51b9e4caa054": {
+      "isFinal": true,
+      "image": "/media/W1siZiIsIjIwMjEvMTEvMzAvMjEvMDEvMjAvN2FhMzkxMWItNmQ4OC00M2ZhLWE1YTktZmQxMGI2MzA4YzQyL2ZpbGUucG5nIl1d/file.png?sha=de2d7e5dbc9b0168"
+    },
+    "9ef502a1-b2ae-4d08-9399-0fc26ac41360": {
+      "image": "/media/W1siZiIsIjIwMjEvMTIvMDEvMDAvMDQvMzYvNzk3YjBmOWYtOGUzNi00N2NhLWE3YWMtODU1ZDRlMmNhYTliL2ZpbGUucG5nIl1d/file.png?sha=7e46fd5d82398809",
+      "isFinal": true
+    },
+    "8298d263-687e-4af3-ba37-2f3acdc4e401": {
+      "image": "/media/W1siZiIsIjIwMjEvMTIvMDEvMDAvMDQvNTcvNTJiNTRkZmQtMTE1ZS00NDcwLTkxOTEtOGZjZWM5ZjYyMjAzL2ZpbGUucG5nIl1d/file.png?sha=8d09e0094d249abb",
+      "isFinal": true
+    },
+    "b169cecf-c310-47e7-a8c8-71122fc2da19": {
+      "image": "/media/W1siZiIsIjIwMjEvMTIvMDEvMDAvMDYvMjgvNTQzZWI0NWYtMGE2NC00MzVkLTgyZDMtNjlhYWMyZGRhYWQyL2ZpbGUucG5nIl1d/file.png?sha=a24671a25b7e38e0",
+      "isFinal": true
+    },
+    "8e08fde4-0b92-418f-b165-410104bbcce1": {
+      "image": "/media/W1siZiIsIjIwMjEvMTEvMzAvMjMvMzAvNTUvNGZmM2YxZGMtM2QzZi00YWEzLTk1NDAtMTVjZDhiMDUyMjM1L2ZpbGUucG5nIl1d/file.png?sha=98d58cd71de212ee",
+      "isFinal": true
+    },
+    "8dadfe96-7968-486c-a6de-1fa24d580e91": {
+      "image": "/media/W1siZiIsIjIwMjEvMTEvMzAvMjMvMzMvMTAvY2JhODUzYjgtMTVlZS00OWU2LTk3ZDMtZGFlNWNkMWRiMzVjL2ZpbGUucG5nIl1d/file.png?sha=0b98cc85a49654ca",
+      "isFinal": true
+    },
+    "24244c1b-942e-4266-aeec-7887b7ded052": {
+      "image": "/media/W1siZiIsIjIwMjEvMTEvMzAvMjMvMzMvMzcvZTQzNjM2MDktZjA5Yy00MzBlLTgxM2UtNjdlNDllMWQzYWU2L2ZpbGUucG5nIl1d/file.png?sha=f4a86925826d5cd4",
+      "isFinal": true
+    }
+  },
+  "copiedPortMeta": {}
+}
