@@ -1,8 +1,8 @@
 # AWS Compute Decision Tree
 
-With over 170 services to chose from, finding the right AWS compute service can be a challenge. This decision tree will help you find the right AWS compute service for your workload.
+With over 170 services to choose from, finding the right AWS compute service can be a challenge. This decision tree will help you find the right AWS compute service for your workload.
 
-Either refer to the flowchart or the storyboard to find the right AWS compute service to suite your needs.
+Either refer to the flowchart or the storyboard to find the right AWS compute service to suit your needs.
 
 ## Storyboard
 
@@ -17,6 +17,10 @@ Feel free to create your own using the `storyboard.json` file. Simply copy the J
 The flowcharts are created using the VS Code extension [Draw.io Integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio-insiders-build). This extension enables you to create draw.io diagrams from the VS Code editor and have them automatically be saved as Scalable Vector Graphics (SVG).
 
 ## Changelog
+
+- 2.2.0 - 6 Dec 2021:
+
+  - Added supported for Git-based compute serviced by [AWS CodeBuild](https://aws.amazon.com/codebuild/).
 
 - 2.1.0 - 1 Dec 2021:
 
